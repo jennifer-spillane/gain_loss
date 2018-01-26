@@ -65,7 +65,7 @@ def busco():
                     line = line.strip()
                     if line[0] == "C":
                         score += line[2:6]
-
+                print(score)
         except IOError:
             print("Issue reading file")
 
