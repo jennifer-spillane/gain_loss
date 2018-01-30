@@ -16,3 +16,6 @@ I'll need to write out both of these lines for each dataset we have.
 Example:
 > awk '/^>/{print ">" ++i; next}{print}' < ./transdecoded_aas//Hormathia_digitata_pep.fa > Hormathia_digitata.fa
 > perl -p -i -e 's/>/>Hormathia_digitata|/g' Hormathia_digitata.fa
+
+It would be great to automate this step, but all the formats of the names are currently different.
+Matt says he still knows a way to do it, so stay tuned for that update.
