@@ -37,7 +37,7 @@ def busco():
                     if count == 8:
                         break
                 print(line)
-                score += int(line[2:6])
+                score += float(line[3:7])
                 print(score)
                 #sorting the files based on the score
                 if score < 50.0:
