@@ -19,3 +19,17 @@ Example:
 
 It would be great to automate this step, but all the formats of the names are currently different.
 Matt says he still knows a way to do it, so stay tuned for that update.
+
+
+
+# Assumptions of the scripts:
+
+### quality.py
+
+- it is given an absolute path to a directory containing protein fastas
+- it is being run in a directory where there is also a busco file called "config.ini"
+- it is being run in a directory where there is a busco database file
+
+### ortho.py
+
+- it is given an absolute path to a directory (probably "above_thresh") that contains protein fasta files that fell above the threshold
