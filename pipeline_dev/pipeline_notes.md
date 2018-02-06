@@ -22,14 +22,31 @@ Matt says he still knows a way to do it, so stay tuned for that update.
 
 
 
-# Assumptions of the scripts:
+# Assumptions of and notes for the scripts
 
-### quality.py
+## quality.py
+
+### Assumptions
 
 - it is given an absolute path to a directory containing protein fastas
 - it is being run in a directory where there is also a busco file called "config.ini"
 - it is being run in a directory where there is a busco database file
 
-### ortho.py
+### Notes
+
+Right now, the script just uses a threshold that is hard-coded into the program.
+If I need to, it would be easy to change this to be user-input, which would make it more flexible.
+
+## ortho.py
+
+### Assumptions
 
 - it is given an absolute path to a directory (probably "above_thresh") that contains protein fasta files that fell above the threshold
+
+### Notes
+
+BLAST is the step that takes forever. There are pretty much two options to make it go faster:
+1. run BLAST the way I did it in December (see sponge_sec/initial_blasting)
+2. use DIAMOND instead. (with "-S diamond", or "-S diamond_more_sensitive")
+
+There are lots of other options if I want OrthoFinder to use different programs for different parts of the analysis - talk to Matt and Dave about which ones might be best.
