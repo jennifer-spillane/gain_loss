@@ -2,18 +2,9 @@
 
 import argparse
 import subprocess
-import os
-import shutil
 
 def orthofinder():
-    shutil.rmtree("orthofinder_out", ignore_errors = True)
-
-    orig_dir = os.getcwd()
-    os.mkdir("orthofinder_out")
-    os.chdir("orthofinder_out")
-    subprocess.run("orthofinder.py -f {0} -t 24".format(args.dir), shell = True, stdout = subprocess.PIPE)
-    os.chdir("{0}".format(orig_dir))
-    #return trees.stdout.decode('ascii')
+    subprocess.run("orthofinder.py -f {0} -t 24 -S diamond".format(args.dir), shell = True, stdout = subprocess.PIPE)
 
 parser = argparse.ArgumentParser(description = "Things that OrthoFinder needs to run")
 parser.add_argument("dir", help = "path to a directory of fasta files that passed the busco threshold")
