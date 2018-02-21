@@ -50,3 +50,6 @@ BLAST is the step that takes forever. There are pretty much two options to make 
 2. use DIAMOND instead. (with "-S diamond", or "-S diamond_more_sensitive")
 
 There are lots of other options if I want OrthoFinder to use different programs for different parts of the analysis - talk to Matt and Dave about which ones might be best.
+
+## Example of downloading:
+> scp jlh1023@premise.sr.unh.edu:/mnt/lustre/macmaneslab/jlh1023/pipeline_dev/sponge_test/test_data/Results_Feb06/WorkingDirectory/kinfin_results/cluster_size_distribution.pdf ~/Desktop/
