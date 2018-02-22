@@ -17,13 +17,13 @@ Original number of transcripts at the end of the ORP: 132003
 Just realized that the above busco scores are from the eukaryote database, not the metazoan one that I'm using for other things, so I'm re-running it:
 > run_BUSCO.py -i /mnt/lustre/macmaneslab/nah1004/finished_assemblies/peno.orthomerged.fasta -o orig_peno_busco -l ../sponge_test/metazoa_odb9 -m tran -c 24
 
-> C:93.3%[S:57.4%,D:35.9%],F:4.1%,M:2.6%,n:978
-> 912     Complete BUSCOs (C)
-> 561     Complete and single-copy BUSCOs (S)
-> 351     Complete and duplicated BUSCOs (D)
-> 40      Fragmented BUSCOs (F)
-> 26       Missing BUSCOs (M)
-> 978     Total BUSCO groups searched
+- C:93.3%[S:57.4%,D:35.9%],F:4.1%,M:2.6%,n:978
+- 912     Complete BUSCOs (C)
+- 561     Complete and single-copy BUSCOs (S)
+- 351     Complete and duplicated BUSCOs (D)
+- 40      Fragmented BUSCOs (F)
+- 26       Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
 
 ## cd-hit alone
 
@@ -37,13 +37,13 @@ Running busco on this to determine how complete the transcriptome remains
 > run_BUSCO.py -i orig_peno_cdhit.fasta -o cdhit_busco -l ../sponge_test/metazoa_odb9 -m tran -c 24
 
 Busco score with only cdhit 0.99 filtering:
-> C:93.2%[S:60.5%,D:32.7%],F:4.1%,M:2.7%,n:978
-    912     Complete BUSCOs (C)
-    592     Complete and single-copy BUSCOs (S)
-    320     Complete and duplicated BUSCOs (D)
-    40      Fragmented BUSCOs (F)
-    26       Missing BUSCOs (M)
-    978     Total BUSCO groups searched
+- C:93.2%[S:60.5%,D:32.7%],F:4.1%,M:2.7%,n:978
+- 912     Complete BUSCOs (C)
+- 592     Complete and single-copy BUSCOs (S)
+- 320     Complete and duplicated BUSCOs (D)
+- 40      Fragmented BUSCOs (F)
+- 26       Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
 
 ## Transrate thresholds
 
