@@ -3,13 +3,13 @@
 Using the Pelagia noctiluca to look at the different ways that filtering might affect the final set of genes/transcripts
 
 Original busco score (at the end of the ORP):
-> C:96.1%[S:60.1%,D:36.0%],F:4.0%,M:-0.1%,n:303
-    291     Complete BUSCOs (C)
-    182     Complete and single-copy BUSCOs (S)
-    109     Complete and duplicated BUSCOs (D)
-    12      Fragmented BUSCOs (F)
-    0       Missing BUSCOs (M)
-    303     Total BUSCO groups searched
+- C:96.1%[S:60.1%,D:36.0%],F:4.0%,M:-0.1%,n:303
+- 291     Complete BUSCOs (C)
+- 182     Complete and single-copy BUSCOs (S)
+- 109     Complete and duplicated BUSCOs (D)
+- 12      Fragmented BUSCOs (F)
+- 0       Missing BUSCOs (M)
+- 303     Total BUSCO groups searched
 
 Original number of transcripts at the end of the ORP: 132003
 > grep ">" /mnt/lustre/macmaneslab/nah1004/finished_assemblies/peno.orthomerged.fasta | wc -l
