@@ -10,21 +10,25 @@ import Bio.SeqIO
 def filter():
     try:
         with open("{0}".format(args.contigs), "r") as con_file:
-            print("opened contig file")
             name_score = {}
+            #looping through the contig file and populating a dictionary
+            #keys = names of transcripts, values = transrate scores
             for line in con_file:
                 line = line.split(",")
                 if line[8] != "score":
                     name_score[line[0]] = float(line[8])
 
+            #finding the median and stddev of all the scores, printing these
             med_score = statistics.median(name_score.values())
             dev_score = statistics.stdev(name_score.values())
             low_bound = med_score - (args.proportion * dev_score)
             print(med_score)
             print(dev_score)
             print(low_bound)
+
             filtered_dict = {}
             num_trans = 0
+            #looping through the dictionary, populating a new dictionary with transcripts above the threshold
             for entry in name_score:
                 if name_score[entry] >= low_bound:
                     filtered_dict[entry] = name_score[entry]
@@ -32,10 +36,12 @@ def filter():
             print(num_trans)
 
             transcripts = []
+            #looping through both the assembly file and filtered dictionary
+            #finding matches and adding them to the new file 
             for record in Bio.SeqIO.parse("{0}".format(args.assembly), "fasta"):
                 for entry in filtered_dict:
                     if record.id == entry:
-                        cur_trans = Bio.SeqRecord.SeqRecord(id = "{0}".format(record.id), seq = Bio.Seq.Seq(str(record.seq)))
+                        cur_trans = Bio.SeqRecord.SeqRecord(id = "{0}".format(record.id), seq = record.seq)
                         transcripts.append(cur_trans)
 
             Bio.SeqIO.write(transcripts, "{0}".format(args.out_fasta), "fasta")
