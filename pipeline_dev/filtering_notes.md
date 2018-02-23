@@ -27,6 +27,8 @@ Just realized that the above busco scores are from the eukaryote database, not t
 
 ## cd-hit alone
 
+### cd-hit with 0.99 similarity filtering
+
 Now I'll run cdhit with a cutoff of 0.99, just to see how many transcripts would be collapsed from the "raw" assembly
 > cd-hit -i /mnt/lustre/macmaneslab/nah1004/finished_assemblies/peno.orthomerged.fasta -o orig_peno_cdhit99.fasta -c 0.99 -T 24
 
@@ -45,11 +47,16 @@ Busco score with only cdhit 0.99 filtering:
 - 26       Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
 
+### cd-hit with 1.0 similarity filtering
+
 Also running cdhit with a cutoff of 1.0, to see how many collapse under that condition.
 > cd-hit -i /mnt/lustre/macmaneslab/nah1004/finished_assemblies/peno.orthomerged.fasta -o orig_peno_cdhit1.fasta -c 1.0 -T 24
 
 Number of transcripts after cdhit1: 126,512 (lost 5,491)
 > grep ">" orig_peno_cdhit1.fasta | wc -l
+
+Also running busco again, for good measure
+> run_BUSCO.py -i orig_peno_cdhit1.fasta -o cdhit1_busco -l ../sponge_test/metazoa_odb9 -m tran -c 24
 
 Busco score with only cdhit 1.0 filtering:
 - C:93.3%[S:57.9%,D:35.4%],F:4.1%,M:2.6%,n:978
