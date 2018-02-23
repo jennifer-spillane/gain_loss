@@ -118,6 +118,9 @@ Busco score with only cdhit 1.0 filtering:
 I'm also going to run cdhit on the filtered fasta, to see if it ends up being redundant
 > cd-hit -i peno_trans1.fasta -o peno_trans1_cdhit1.fasta -c 1.0 -T 24
 
+Number of transcripts after cd-hit filtering (1.0) the already filtered file: 101,931 (lost 3,872)
+> grep ">" peno_trans1_cdhit1.fasta | wc -l
+
 ### 0.5 stddev below the median
 
 for 0.5 stddev below the median, the threshold is 0.559779... and we end up with 90,049 sequences left after filtering (41,954 weeded out)
@@ -129,4 +132,23 @@ Busco score with only cdhit 0.5 filtering:
 - 225     Complete and duplicated BUSCOs (D)
 - 56      Fragmented BUSCOs (F)
 - 160     Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+I'm also going to run cdhit on the filtered fasta, to see if it ends up being redundant
+> cd-hit -i peno_trans05.fasta -o peno_trans05_cdhit1.fasta -c 1.0 -T 24
+
+Number of transcripts after cd-hit filtering (1.0) the already filtered file: 86,764 (lost 3,285)
+> grep ">" peno_trans05_cdhit1.fasta | wc -l
+
+### 2 stddev below the median
+
+For 2 stddev below the median, the threshold is 0.189121... and we end up with 122,448 sequences left after filtering (9,555 weeded out)
+
+Busco score with only cdhit 0.5 filtering:
+- C:91.0% [S:57.4%, D:33.6%], F:4.4%, M:4.6%, n:978
+- 890     Complete BUSCOs (C)
+- 561     Complete and single-copy BUSCOs (S)
+- 329     Complete and duplicated BUSCOs (D)
+- 43      Fragmented BUSCOs (F)
+- 45      Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
