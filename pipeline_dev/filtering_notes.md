@@ -98,4 +98,35 @@ In this one, the threshold will be within 0.5 stddev of the median.
 So the threshold should be 0.5597475, and it will discard 41,945 transcripts.
 > awk -F ',' '$9<.5597475' /mnt/lustre/macmaneslab/nah1004/transcriptomes/reports/transrate_peno/peno.orthomerged/contigs.csv | wc -l
 
-These are just numbers, I still have to actually filter them and then run busco on both to see how complete they still are. I'll run cdhit on them post-filtering also, to see if that step is redundant or interesting.
+### script to filter: filter_transrate.py (see pipeline_dev repo)
+
+The actual numbers are a little different when you let python calculate them from the scores.
+
+### 1 stddev below the median
+
+For 1 stddev below the median, the threshold is 0.436226... and we end up with 105,803 sequences left after filtering (26,200 weeded out)
+
+Busco score with only cdhit 1.0 filtering:
+- C:85.1% [S:58.0%, D:27.1%], F:5.3%, M:9.6%, n:978
+- 832     Complete BUSCOs (C)
+- 567     Complete and single-copy BUSCOs (S)
+- 265     Complete and duplicated BUSCOs (D)
+- 52      Fragmented BUSCOs (F)
+- 94     Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+I'm also going to run cdhit on the filtered fasta, to see if it ends up being redundant
+> cd-hit -i peno_trans1.fasta -o peno_trans1_cdhit1.fasta -c 1.0 -T 24
+
+### 0.5 stddev below the median
+
+for 0.5 stddev below the median, the threshold is 0.559779... and we end up with 90,049 sequences left after filtering (41,954 weeded out)
+
+Busco score with only cdhit 0.5 filtering:
+- C:77.9% [S:54.9%, D:23.0%], F:5.7%, M:16.4%, n:978
+- 762     Complete BUSCOs (C)
+- 537     Complete and single-copy BUSCOs (S)
+- 225     Complete and duplicated BUSCOs (D)
+- 56      Fragmented BUSCOs (F)
+- 160     Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
