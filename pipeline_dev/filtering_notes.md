@@ -144,7 +144,7 @@ Number of transcripts after cd-hit filtering (1.0) the already filtered file: 86
 
 For 2 stddev below the median, the threshold is 0.189121... and we end up with 122,448 sequences left after filtering (9,555 weeded out)
 
-Busco score with only cdhit 0.5 filtering:
+Busco score with only cdhit 2.0 filtering:
 - C:91.0% [S:57.4%, D:33.6%], F:4.4%, M:4.6%, n:978
 - 890     Complete BUSCOs (C)
 - 561     Complete and single-copy BUSCOs (S)
