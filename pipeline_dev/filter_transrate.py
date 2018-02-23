@@ -5,42 +5,49 @@
 
 import argparse
 import statistics
+import Bio.SeqIO
 
 def filter():
     try:
-        #opening both a file to read from and one to write to
-        with open("{0}".format(args.in_file), "r") as con_file:
-            print("opened in_file")
-            with open("{0}".format(args.out_file), "w") as filtered_csv:
-                print("opened out_file")
-                score_list = []
-                filtered_lines = {}
-                for line in con_file:
-                    line = line.split(",")
-                    if line[8] != "score":
-                        score_list.append(float(line[8]))
-                #calculating all necessary scores to filter
-                med_score = statistics.median(score_list)
-                dev_score = statistics.stdev(score_list)
-                low_bound = med_score - (args.prop * dev_score)
-                               print(med_score)
-                print(dev_score)
-                print(low_bound)
-                #iterating through each line, and adding the ones that pass
-                for line in con_file:
-                    line = line.split(",")
-                    if line[8] != "score":
-                        if float(line[8]) >= low_bound:
-                            filtered_lines += line
-                print(filtered_names)
+        with open("{0}".format(args.contigs), "r") as con_file:
+            print("opened contig file")
+            name_score = {}
+            for line in con_file:
+                line = line.split(",")
+                if line[8] != "score":
+                    name_score[line[0]] = float(line[8])
+
+            med_score = statistics.median(name_score.values())
+            dev_score = statistics.stdev(name_score.values())
+            low_bound = med_score - (args.proportion * dev_score)
+            print(med_score)
+            print(dev_score)
+            print(low_bound)
+            filtered_dict = {}
+            num_trans = 0
+            for entry in name_score:
+                if name_score[entry] >= low_bound:
+                    filtered_dict[entry] = name_score[entry]
+                    num_trans += 1
+            print(num_trans)
+
+            transcripts = []
+            for record in Bio.SeqIO.parse("{0}".format(args.assembly), "fasta"):
+                for entry in filtered_dict:
+                    if record.id == entry:
+                        cur_trans = Bio.SeqRecord.SeqRecord(id = "{0}".format(record.id), seq = Bio.Seq.Seq(str(record.seq)))
+                        transcripts.append(cur_trans)
+
+            Bio.SeqIO.write(transcripts, "{0}".format(args.out_fasta), "fasta")
     except IOError:
         print("Issue reading file")
-    return(filtered_names)
+
 
 parser = argparse.ArgumentParser(description = "Arguments for filtering transctiptomes")
-parser.add_argument("in_file", help = "path to the transrate contigs.csv file")
-parser.add_argument("prop", type = float, help = "proportion of a standard deviation below the medi$
-parser.add_argument("out_file", help = "the name of the new filtered output file")
+parser.add_argument("-c", "--contigs", required = True, help = "path to the transrate contigs.csv file")
+parser.add_argument("-p", "--proportion", required = True, type = float, help = "proportion of a standard deviation below the median")
+parser.add_argument("-o", "--out_fasta", required = True, help = "the name of the new filtered output file")
+parser.add_argument("-a", "--assembly", required = True, help = "path to the ORP assembly")
 args = parser.parse_args()
 
 filter()
