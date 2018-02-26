@@ -22,22 +22,31 @@ def filter():
             med_score = statistics.median(name_score.values())
             dev_score = statistics.stdev(name_score.values())
             low_bound = med_score - (args.proportion * dev_score)
-            print(med_score)
-            print(dev_score)
-            print(low_bound)
+            print("Median: ", med_score)
+            print("Standard Deviation: ", dev_score)
+            print("Low Threshold: ", low_bound)
 
             filtered_dict = {}
+            low_dict = {}
+            low_trans = ""
             num_trans = 0
             #looping through the dictionary, populating a new dictionary with transcripts above the threshold
             for entry in name_score:
                 if name_score[entry] >= low_bound:
                     filtered_dict[entry] = name_score[entry]
                     num_trans += 1
+                if name_score[entry] <= 0.15:
+                    low_dict[entry] = name_score[entry]
             print(num_trans)
+            for entry in low_dict:
+                low_trans += entry
+                low_trans += str(low_dict[entry])
+            with open("{0}".format(args.bad_file), "w") as rejected:
+                rejected.write(low_trans)
 
             transcripts = []
             #looping through both the assembly file and filtered dictionary
-            #finding matches and adding them to the new file 
+            #finding matches and adding them to the new file
             for record in Bio.SeqIO.parse("{0}".format(args.assembly), "fasta"):
                 for entry in filtered_dict:
                     if record.id == entry:
@@ -54,6 +63,7 @@ parser.add_argument("-c", "--contigs", required = True, help = "path to the tran
 parser.add_argument("-p", "--proportion", required = True, type = float, help = "proportion of a standard deviation below the median")
 parser.add_argument("-o", "--out_fasta", required = True, help = "the name of the new filtered output file")
 parser.add_argument("-a", "--assembly", required = True, help = "path to the ORP assembly")
+parser.add_argument("-b", "--bad_file", required = True, help = "name of the file with rejected transctripts")
 args = parser.parse_args()
 
 filter()
