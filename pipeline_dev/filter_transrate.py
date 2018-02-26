@@ -40,7 +40,9 @@ def filter():
             print(num_trans)
             for entry in low_dict:
                 low_trans += entry
+                low_trans += "\t"
                 low_trans += str(low_dict[entry])
+                low_trans += "\n"
             with open("{0}".format(args.bad_file), "w") as rejected:
                 rejected.write(low_trans)
 
