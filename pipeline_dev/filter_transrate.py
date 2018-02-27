@@ -11,12 +11,20 @@ def filter():
     try:
         with open("{0}".format(args.contigs), "r") as con_file:
             name_score = {}
+            low_trans = ""
             #looping through the contig file and populating a dictionary
             #keys = names of transcripts, values = transrate scores
+            #sending low scoring lines to a file for examination
             for line in con_file:
                 line = line.split(",")
                 if line[8] != "score":
                     name_score[line[0]] = float(line[8])
+                if line[8] <= 0.15:
+                    low_trans += line
+
+            #writing the rejected lines to a file
+            with open("{0}".format(args.bad_file), "w") as rejected:
+                rejected.write(low_trans)
 
             #finding the median and stddev of all the scores, printing these
             med_score = statistics.median(name_score.values())
@@ -27,24 +35,16 @@ def filter():
             print("Low Threshold: ", low_bound)
 
             filtered_dict = {}
-            low_dict = {}
-            low_trans = ""
             num_trans = 0
             #looping through the dictionary, populating a new dictionary with transcripts above the threshold
+            #recording the number of transcripts retained in the new file
             for entry in name_score:
                 if name_score[entry] >= low_bound:
                     filtered_dict[entry] = name_score[entry]
                     num_trans += 1
                 if name_score[entry] <= 0.15:
                     low_dict[entry] = name_score[entry]
-            print(num_trans)
-            for entry in low_dict:
-                low_trans += entry
-                low_trans += "\t"
-                low_trans += str(low_dict[entry])
-                low_trans += "\n"
-            with open("{0}".format(args.bad_file), "w") as rejected:
-                rejected.write(low_trans)
+            print("Number of transcripts above threshold: ", num_trans)
 
             transcripts = []
             #looping through both the assembly file and filtered dictionary
