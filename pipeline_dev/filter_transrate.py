@@ -17,10 +17,12 @@ def filter():
             #sending low scoring lines to a file for examination
             for line in con_file:
                 line = line.split(",")
-                if line[8] != "score":
+                if line[8] == "score":
+                    low_trans += ",".join(line)
+                else:
                     name_score[line[0]] = float(line[8])
-                if line[8] <= 0.15:
-                    low_trans += line
+                    if float(line[8]) <= 0.15:
+                        low_trans += ",".join(line)
 
             #writing the rejected lines to a file
             with open("{0}".format(args.bad_file), "w") as rejected:
@@ -42,8 +44,6 @@ def filter():
                 if name_score[entry] >= low_bound:
                     filtered_dict[entry] = name_score[entry]
                     num_trans += 1
-                if name_score[entry] <= 0.15:
-                    low_dict[entry] = name_score[entry]
             print("Number of transcripts above threshold: ", num_trans)
 
             transcripts = []
@@ -56,8 +56,8 @@ def filter():
                         transcripts.append(cur_trans)
 
             Bio.SeqIO.write(transcripts, "{0}".format(args.out_fasta), "fasta")
-    except IOError:
-        print("Issue reading file")
+                except IOError:
+                    print("Issue reading file")
 
 
 parser = argparse.ArgumentParser(description = "Arguments for filtering transctiptomes")
