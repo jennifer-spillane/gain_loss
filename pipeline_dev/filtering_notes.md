@@ -201,3 +201,45 @@ Busco score with transrate 1 stddev and 1.5 tpm filtering:
 - 40      Fragmented BUSCOs (F)
 - 26      Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
+
+
+### 1 stddev below the median and at least 2.0 tpm
+
+Number of transcripts above threshold: 117,084 (lost 14,919 contigs)
+
+Busco score with transrate 1 stddev and 2.0 tpm filtering:
+- C:93.3% [S:58.3%, D:35.0%], F:4.1%, M:2.6%, n:978
+- 912     Complete BUSCOs (C)
+- 570     Complete and single-copy BUSCOs (S)
+- 342     Complete and duplicated BUSCOs (D)
+- 40      Fragmented BUSCOs (F)
+- 26      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+### 1 stddev below the median and at least 2.5 tpm
+
+Number of transcripts above threshold: 115,272 (lost 16,731 contigs)
+
+Busco score with transrate 1 stddev and 2.5 tpm filtering:
+- C:93.3% [S:58.6%, D:34.7%], F:4.1%, M:2.6%, n:978
+- 912     Complete BUSCOs (C)
+- 573     Complete and single-copy BUSCOs (S)
+- 339     Complete and duplicated BUSCOs (D)
+- 40      Fragmented BUSCOs (F)
+- 26      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+### 1 stddev below the median and at least 3.0 tpm
+
+Number of transcripts above threshold: 113,892 (lost 18,111 contigs)
+
+Busco score with transrate 1 stddev and 3.0 tpm filtering:
+- C:93.3% [S:58.7%, D:34.6%], F:4.1%, M:2.6%, n:978
+- 912     Complete BUSCOs (C)
+- 574     Complete and single-copy BUSCOs (S)
+- 338     Complete and duplicated BUSCOs (D)
+- 40      Fragmented BUSCOs (F)
+- 26      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
