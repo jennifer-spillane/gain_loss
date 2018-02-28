@@ -11,6 +11,7 @@ def filter():
     try:
         with open("{0}".format(args.contigs), "r") as con_file:
             name_score = {}
+            name_tpm = {}
             low_trans = ""
             #looping through the contig file and populating a dictionary
             #keys = names of transcripts, values = transrate scores
@@ -21,6 +22,7 @@ def filter():
                     low_trans += ",".join(line)
                 else:
                     name_score[line[0]] = float(line[8])
+                    name_tpm[line[0]] = float(line[12])
                     if float(line[8]) <= 0.15:
                         low_trans += ",".join(line)
 
@@ -36,13 +38,13 @@ def filter():
             print("Standard Deviation: ", dev_score)
             print("Low Threshold: ", low_bound)
 
-            filtered_dict = {}
+            filtered_list = []
             num_trans = 0
             #looping through the dictionary, populating a new dictionary with transcripts above the threshold
             #recording the number of transcripts retained in the new file
             for entry in name_score:
-                if name_score[entry] >= low_bound:
-                    filtered_dict[entry] = name_score[entry]
+                if name_score[entry] >= low_bound and name_tpm[entry] >= 0.5:
+                    filtered_list.append(entry)
                     num_trans += 1
             print("Number of transcripts above threshold: ", num_trans)
 
@@ -50,14 +52,14 @@ def filter():
             #looping through both the assembly file and filtered dictionary
             #finding matches and adding them to the new file
             for record in Bio.SeqIO.parse("{0}".format(args.assembly), "fasta"):
-                for entry in filtered_dict:
-                    if record.id == entry:
+                for item in filtered_list:
+                    if record.id == item:
                         cur_trans = Bio.SeqRecord.SeqRecord(id = "{0}".format(record.id), seq = record.seq)
                         transcripts.append(cur_trans)
 
             Bio.SeqIO.write(transcripts, "{0}".format(args.out_fasta), "fasta")
-                except IOError:
-                    print("Issue reading file")
+    except IOError:
+        print("Issue reading file")
 
 
 parser = argparse.ArgumentParser(description = "Arguments for filtering transctiptomes")
