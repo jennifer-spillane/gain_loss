@@ -43,7 +43,7 @@ def filter():
             #looping through the dictionary, populating a new dictionary with transcripts above the threshold
             #recording the number of transcripts retained in the new file
             for entry in name_score:
-                if name_score[entry] >= low_bound and name_tpm[entry] >= 0.5:
+                if name_score[entry] >= low_bound or name_tpm[entry] >= 0.5:
                     filtered_list.append(entry)
                     num_trans += 1
             print("Number of transcripts above threshold: ", num_trans)
