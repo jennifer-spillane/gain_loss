@@ -106,7 +106,7 @@ The actual numbers are a little different when you let python calculate them fro
 
 For 1 stddev below the median, the threshold is 0.436226... and we end up with 105,803 sequences left after filtering (26,200 weeded out)
 
-Busco score with only cdhit 1.0 filtering:
+Busco score with only transrate 1.0 filtering:
 - C:85.1% [S:58.0%, D:27.1%], F:5.3%, M:9.6%, n:978
 - 832     Complete BUSCOs (C)
 - 567     Complete and single-copy BUSCOs (S)
@@ -125,7 +125,7 @@ Number of transcripts after cd-hit filtering (1.0) the already filtered file: 10
 
 for 0.5 stddev below the median, the threshold is 0.559779... and we end up with 90,049 sequences left after filtering (41,954 weeded out)
 
-Busco score with only cdhit 0.5 filtering:
+Busco score with only transrate 0.5 filtering:
 - C:77.9% [S:54.9%, D:23.0%], F:5.7%, M:16.4%, n:978
 - 762     Complete BUSCOs (C)
 - 537     Complete and single-copy BUSCOs (S)
@@ -144,11 +144,46 @@ Number of transcripts after cd-hit filtering (1.0) the already filtered file: 86
 
 For 2 stddev below the median, the threshold is 0.189121... and we end up with 122,448 sequences left after filtering (9,555 weeded out)
 
-Busco score with only cdhit 2.0 filtering:
+Busco score with only transrate 2.0 filtering:
 - C:91.0% [S:57.4%, D:33.6%], F:4.4%, M:4.6%, n:978
 - 890     Complete BUSCOs (C)
 - 561     Complete and single-copy BUSCOs (S)
 - 329     Complete and duplicated BUSCOs (D)
 - 43      Fragmented BUSCOs (F)
 - 45      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+## Investigating what is being filtered output
+
+Because we are losing a lot of busco score through this filtering process (ideally we would not lose any content, only redundant transcripts and isoforms), we need to investigate further what is actually being lost, and if there is a way to preserve some of that content.
+
+I incorporated a few lines into the filter_transrate.py script to retain the lines of the contig file whose score falls below 0.15 (the worst of the worst, which are being filtered out in all three scenarios above). We looked at the different metrics and are trying to figure out what might result in a score that low.
+
+I've now incorporated a way of filtering that takes into account the tpm of the contig as well as its overall score. I'm trying it on the filter that uses 1 standard deviation below the median, and I'll use two different values to test. BUSCO to follow.
+
+### 1 stddev below the median and at least 0.5 tpm
+
+Number of transcripts above threshold: 127,520 (lost 4,483 contigs)
+
+Busco score with transrate 1 stddev and 0.5 tpm filtering:
+- C:93.3% [S:57.7%, D:35.6%], F:4.1%, M:2.6%, n:978
+- 912     Complete BUSCOs (C)
+- 564     Complete and single-copy BUSCOs (S)
+- 348     Complete and duplicated BUSCOs (D)
+- 40      Fragmented BUSCOs (F)
+- 26      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+### 1 stddev below the median and at least 1.0 tpm
+
+Number of transcripts above threshold: 123,281 (lost 8,722 contigs)
+
+Busco score with transrate 1 stddev and 0.5 tpm filtering:
+- C:93.3% [S:57.9%, D:35.4%], F:4.1%, M:2.6%, n:978
+- 912     Complete BUSCOs (C)
+- 566     Complete and single-copy BUSCOs (S)
+- 346     Complete and duplicated BUSCOs (D)
+- 40      Fragmented BUSCOs (F)
+- 26      Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
