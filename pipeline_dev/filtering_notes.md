@@ -289,7 +289,7 @@ Busco score with transrate 1 stddev and 5.0 tpm filtering:
 
 ### 1 stddev below the median and at least 4.0 tpm
 
-Number of transcripts above threshold: 111,913 (lost  contigs)
+Number of transcripts above threshold: 111,913 (20,090 lost  contigs)
 
 Busco score with transrate 1 stddev and 4.0 tpm filtering:
 - C:93.2% [S:58.8%, D:34.4%], F:4.2%, M:2.6%, n:978
