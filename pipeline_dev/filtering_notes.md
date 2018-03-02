@@ -318,7 +318,7 @@ Busco score with transrate 1 stddev, 4.0 tpm filtering, and cdhit 1.0:
 
 
 
-### Grantia compressa testing
+# Grantia compressa testing
 
 I want to test this process on more species to make sure it's consistent.
 
@@ -333,7 +333,7 @@ Busco score for original assembly:
 - 58      Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
 
-# filtering with 1 standard deviation below the median, or at least 4 tpm
+### filtering with 1 standard deviation below the median, or at least 4 tpm
 
 Number of transcripts above threshold: 134,777 (lost 21,249 contigs)
 
@@ -347,7 +347,7 @@ Busco score with transrate 1 stddev and 4.0 tpm filtering:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 7 tpm
+### filtering with 1 standard deviation below the median, or at least 7 tpm
 
 Number of transcripts above threshold: 130,958 (lost 25,068 contigs)
 
@@ -361,7 +361,7 @@ Busco score with transrate 1 stddev and 7.0 tpm filtering:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 1 tpm
+### filtering with 1 standard deviation below the median, or at least 1 tpm
 
 Number of transcripts above threshold: 148,087 (lost 7,939 contigs)
 
@@ -375,7 +375,7 @@ Busco score with transrate 1 stddev and 1.0 tpm filtering:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 2 tpm
+### filtering with 1 standard deviation below the median, or at least 2 tpm
 
 Number of transcripts above threshold: 141,174 (lost 14,852 contigs)
 
@@ -389,7 +389,7 @@ Busco score with transrate 1 stddev and 2.0 tpm filtering:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 3 tpm
+### filtering with 1 standard deviation below the median, or at least 3 tpm
 
 Number of transcripts above threshold: 137,358 (lost 18,668 contigs)
 
@@ -404,7 +404,7 @@ Busco score with transrate 1 stddev and 3.0 tpm filtering:
 
 
 
-### Pleraplysilla spinifera
+# Pleraplysilla spinifera
 
 The original dataset has 144,724 contigs
 
@@ -418,7 +418,7 @@ Busco score for original dataset:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 1 tpm
+### filtering with 1 standard deviation below the median, or at least 1 tpm
 
 Number of transcripts above threshold: 138,404 (lost 6320 contigs)
 
@@ -432,7 +432,7 @@ Busco score for original dataset:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 2 tpm
+### filtering with 1 standard deviation below the median, or at least 2 tpm
 
 Number of transcripts above threshold: 132,251 (lost 12,473 contigs)
 
@@ -446,7 +446,7 @@ Busco score for original dataset:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 3 tpm
+### filtering with 1 standard deviation below the median, or at least 3 tpm
 
 Number of transcripts above threshold: 128,273 (lost 16,451 contigs)
 
@@ -460,7 +460,7 @@ Busco score for original dataset:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 4 tpm
+### filtering with 1 standard deviation below the median, or at least 4 tpm
 
 Number of transcripts above threshold: 125,732 (lost 18,992 contigs)
 
@@ -474,7 +474,7 @@ Busco score for original dataset:
 - 978     Total BUSCO groups searched
 
 
-# filtering with 1 standard deviation below the median, or at least 7 tpm
+### filtering with 1 standard deviation below the median, or at least 7 tpm
 
 Number of transcripts above threshold: 121,944 (lost 22,780 contigs)
 
