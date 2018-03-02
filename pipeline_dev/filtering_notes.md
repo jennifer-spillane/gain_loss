@@ -373,3 +373,17 @@ Busco score with transrate 1 stddev and 1.0 tpm filtering:
 - 48      Fragmented BUSCOs (F)
 - 58      Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 2 tpm
+
+Number of transcripts above threshold: 141,174 (lost 7,939 contigs)
+
+Busco score with transrate 1 stddev and 1.0 tpm filtering:
+- C:89.2% [S:61.5%, D:27.7%], F:4.9%, M:5.9%, n:978
+- 872     Complete BUSCOs (C)
+- 601     Complete and single-copy BUSCOs (S)
+- 271     Complete and duplicated BUSCOs (D)
+- 48      Fragmented BUSCOs (F)
+- 58      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
