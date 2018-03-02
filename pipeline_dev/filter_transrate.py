@@ -43,7 +43,7 @@ def filter():
             #looping through the dictionary, populating a new dictionary with transcripts above the threshold
             #recording the number of transcripts retained in the new file
             for entry in name_score:
-                if name_score[entry] >= low_bound or name_tpm[entry] >= 0.5:
+                if name_score[entry] >= low_bound or name_tpm[entry] >= args.tpm:
                     filtered_list.append(entry)
                     num_trans += 1
             print("Number of transcripts above threshold: ", num_trans)
@@ -68,6 +68,7 @@ parser.add_argument("-p", "--proportion", required = True, type = float, help = 
 parser.add_argument("-o", "--out_fasta", required = True, help = "the name of the new filtered output file")
 parser.add_argument("-a", "--assembly", required = True, help = "path to the ORP assembly")
 parser.add_argument("-b", "--bad_file", required = True, help = "name of the file with rejected transctripts")
+parser.add_argument("-t", "--tpm", required = True, help = "lowest threshold for tpm")
 args = parser.parse_args()
 
 filter()
