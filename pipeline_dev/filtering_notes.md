@@ -299,3 +299,77 @@ Busco score with transrate 1 stddev and 4.0 tpm filtering:
 - 41      Fragmented BUSCOs (F)
 - 26      Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
+
+I ran the filtered fasta file that came from this process through cdhit with 1.0 filtering
+> cd-hit -i peno_trans1tpm4.fasta -o peno_trans1tpm4_cdhit.fasta -c 1.0 -T 6
+
+It returned 107,875 contigs (4038 lost after transrate filtering, 24,128 lost overall)
+I also ran busco after this step, to make sure it wasn't affecting the completeness.
+
+Busco score with transrate 1 stddev, 4.0 tpm filtering, and cdhit 1.0:
+- C:93.1% [S:58.3%, D:33.8%], F:4.2%, M:2.7%, n:978
+- 911     Complete BUSCOs (C)
+- 580     Complete and single-copy BUSCOs (S)
+- 331     Complete and duplicated BUSCOs (D)
+- 41      Fragmented BUSCOs (F)
+- 26      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+
+
+### Grantia compressa testing
+
+I want to test this process on more species to make sure it's consistent.
+
+The original dataset has 156,026 contigs.
+
+Busco score for original assembly:
+- C:89.1% [S:60.9%, D:28.2%], F:4.9%, M:6.0%, n:978
+- 872     Complete BUSCOs (C)
+- 596     Complete and single-copy BUSCOs (S)
+- 276     Complete and duplicated BUSCOs (D)
+- 48      Fragmented BUSCOs (F)
+- 58      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+# filtering with 1 standard deviation below the median, or at least 4 tpm
+
+Number of transcripts above threshold: 134,777 (lost 21,249 contigs)
+
+Busco score with transrate 1 stddev and 4.0 tpm filtering:
+- C:88.7% [S:61.6%, D:27.1%], F:5.3%, M:6.0%, n:978
+- 867     Complete BUSCOs (C)
+- 602     Complete and single-copy BUSCOs (S)
+- 265     Complete and duplicated BUSCOs (D)
+- 52      Fragmented BUSCOs (F)
+- 59      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 7 tpm
+
+Number of transcripts above threshold: 130,958 (lost 25,068 contigs)
+
+Busco score with transrate 1 stddev and 7.0 tpm filtering:
+- C:88.3% [S:62.1%, D:26.2%], F:5.4%, M:6.3%, n:978
+- 863     Complete BUSCOs (C)
+- 607     Complete and single-copy BUSCOs (S)
+- 256     Complete and duplicated BUSCOs (D)
+- 53      Fragmented BUSCOs (F)
+- 62      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 1 tpm
+
+Number of transcripts above threshold: 148,087 (lost 7,939 contigs)
+
+Busco score with transrate 1 stddev and 1.0 tpm filtering:
+- C:89.1% [S:61.1%, D:28.0%], F:4.9%, M:6.0%, n:978
+- 872     Complete BUSCOs (C)
+- 598     Complete and single-copy BUSCOs (S)
+- 274     Complete and duplicated BUSCOs (D)
+- 48      Fragmented BUSCOs (F)
+- 58      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
