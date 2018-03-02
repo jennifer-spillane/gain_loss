@@ -377,9 +377,9 @@ Busco score with transrate 1 stddev and 1.0 tpm filtering:
 
 # filtering with 1 standard deviation below the median, or at least 2 tpm
 
-Number of transcripts above threshold: 141,174 (lost 7,939 contigs)
+Number of transcripts above threshold: 141,174 (lost 14,852 contigs)
 
-Busco score with transrate 1 stddev and 1.0 tpm filtering:
+Busco score with transrate 1 stddev and 2.0 tpm filtering:
 - C:89.2% [S:61.5%, D:27.7%], F:4.9%, M:5.9%, n:978
 - 872     Complete BUSCOs (C)
 - 601     Complete and single-copy BUSCOs (S)
@@ -387,3 +387,37 @@ Busco score with transrate 1 stddev and 1.0 tpm filtering:
 - 48      Fragmented BUSCOs (F)
 - 58      Missing BUSCOs (M)
 - 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 3 tpm
+
+Number of transcripts above threshold: 137,358 (lost 18,668 contigs)
+
+Busco score with transrate 1 stddev and 3.0 tpm filtering:
+- C:88.9% [S:61.5%, D:27.4%], F:5.1%, M:6.0%, n:978
+- 869     Complete BUSCOs (C)
+- 601     Complete and single-copy BUSCOs (S)
+- 268     Complete and duplicated BUSCOs (D)
+- 50      Fragmented BUSCOs (F)
+- 59      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+
+### Pleraplysilla spinifera
+
+The original dataset has 144,724 contigs
+
+Busco score for original dataset:
+- C:92.6% [S:46.2%, D:46.4%], F:3.1%, M:4.3%, n:978
+- 906     Complete BUSCOs (C)
+- 452     Complete and single-copy BUSCOs (S)
+- 454     Complete and duplicated BUSCOs (D)
+- 30      Fragmented BUSCOs (F)
+- 42      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 1 tpm
+
+Number of transcripts above threshold: 138,404 (lost 6320 contigs)
