@@ -421,3 +421,68 @@ Busco score for original dataset:
 # filtering with 1 standard deviation below the median, or at least 1 tpm
 
 Number of transcripts above threshold: 138,404 (lost 6320 contigs)
+
+Busco score for original dataset:
+- C:92.6% [S:46.4%, D:46.2%], F:3.1%, M:4.3%, n:978
+- 906     Complete BUSCOs (C)
+- 454     Complete and single-copy BUSCOs (S)
+- 452     Complete and duplicated BUSCOs (D)
+- 30      Fragmented BUSCOs (F)
+- 42      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 2 tpm
+
+Number of transcripts above threshold: 132,251 (lost 12,473 contigs)
+
+Busco score for original dataset:
+- C:92.5% [S:46.4%, D:46.1%], F:3.2%, M:4.3%, n:978
+- 905     Complete BUSCOs (C)
+- 454     Complete and single-copy BUSCOs (S)
+- 451     Complete and duplicated BUSCOs (D)
+- 31      Fragmented BUSCOs (F)
+- 42      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 3 tpm
+
+Number of transcripts above threshold: 128,273 (lost 16,451 contigs)
+
+Busco score for original dataset:
+- C:92.5% [S:46.6%, D:45.9%], F:3.2%, M:4.3%, n:978
+- 905     Complete BUSCOs (C)
+- 456     Complete and single-copy BUSCOs (S)
+- 449     Complete and duplicated BUSCOs (D)
+- 31      Fragmented BUSCOs (F)
+- 42      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 4 tpm
+
+Number of transcripts above threshold: 125,732 (lost 18,992 contigs)
+
+Busco score for original dataset:
+- C:92.5% [S:47.1%, D:45.4%], F:3.2%, M:4.3%, n:978
+- 905     Complete BUSCOs (C)
+- 461     Complete and single-copy BUSCOs (S)
+- 444     Complete and duplicated BUSCOs (D)
+- 31      Fragmented BUSCOs (F)
+- 42      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
+
+
+# filtering with 1 standard deviation below the median, or at least 7 tpm
+
+Number of transcripts above threshold: 121,944 (lost 22,780 contigs)
+
+Busco score for original dataset:
+- C:92.5% [S:47.9%, D:44.6%], F:3.2%, M:4.3%, n:978
+- 904     Complete BUSCOs (C)
+- 468     Complete and single-copy BUSCOs (S)
+- 436     Complete and duplicated BUSCOs (D)
+- 31      Fragmented BUSCOs (F)
+- 43      Missing BUSCOs (M)
+- 978     Total BUSCO groups searched
