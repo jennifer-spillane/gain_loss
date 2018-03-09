@@ -13,7 +13,7 @@ I know that there is at least a little overlap between the inverts and the spong
 > cut -f 1 leni_por_blast.out | sort > leni_por_blast_sorted.out
 > grep "invert" leni_blast.out | cut -f 1 | sort | comm  - leni_por_blast_sorted.out -1 -2 | wc -l
 
-Then I subtract the number that overlap from the "inverts" category, as those are already encompassed in the "sponges" category. 
+Then I subtract the number that overlap from the "inverts" category, as those are already encompassed in the "sponges" category.
 Number overlapping: 1215
 
 Number of contigs: 221,000
@@ -24,6 +24,7 @@ Archaea: 15
 Virus: 9
 Protozoan: 1022
 Mammal: 1150
+Total hits: 16,925
 Unknown:
 
 ### Clathrina coriacea
