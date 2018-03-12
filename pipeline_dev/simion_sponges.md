@@ -32,16 +32,16 @@ Unknown:
 > cut -f 1 clco_por_blast.out | sort > clco_por_blast_sorted.out
 > grep "invert" clco_blast.out | cut -f 1 | sort | comm  - clco_por_blast_sorted.out -1 -2 | wc -l
 
-Number overlapping:
+Number overlapping: 665
 
 Number of contigs: 144,182
 Sponges: 2682
-Inverts:
-Bacteria:
-Archaea:
-Virus:
-Protozoan:
-Mammal:
+Inverts: 580
+Bacteria: 1056
+Archaea: 134
+Virus: 1
+Protozoan: 556
+Mammal: 1969
 Unknown:
 
 ### Grantia compressa
@@ -66,16 +66,16 @@ Unknown:
 > cut -f 1 plja_por_blast.out | sort > plja_por_blast_sorted.out
 > grep "invert" plja_blast.out | cut -f 1 | sort | comm  - plja_por_blast_sorted.out -1 -2 | wc -l
 
-Number overlapping:
+Number overlapping: 374
 
 Number of contigs: 160,287
 Sponges: 2367
-Inverts:
-Bacteria:
-Archaea:
-Virus:
-Protozoan:
-Mammal:
+Inverts: 946
+Bacteria: 567
+Archaea: 7
+Virus: 1
+Protozoan: 76
+Mammal: 860
 Unknown:
 
 ### Pleraplysilla spinifera
@@ -83,14 +83,14 @@ Unknown:
 > cut -f 1 plsp_por_blast.out | sort > plsp_por_blast_sorted.out
 > grep "invert" plsp_blast.out | cut -f 1 | sort | comm  - plsp_por_blast_sorted.out -1 -2 | wc -l
 
-Number overlapping:
+Number overlapping: 509
 
 Number of contigs: 144,724
 Sponges: 3115
-Inverts:
-Bacteria:
-Archaea:
-Virus:
-Protozoan:
-Mammal:
+Inverts: 963
+Bacteria: 271
+Archaea: 15
+Virus: 2
+Protozoan: 232
+Mammal: 527
 Unknown:
