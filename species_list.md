@@ -405,7 +405,9 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 3. Anolis carolinensis; ftp://ftp.ensembl.org/pub/release-91/fasta/anolis_carolinensis/pep/ (Squamata)
 
 **Amphibia**
-1. Xenopus tropicalis; ftp://ftp.ensembl.org/pub/release-91/fasta/xenopus_tropicalis/pep/ (Anura)
+1. DRX015082-91; Hynobius retardatus (Caudata)
+2. ERR632222; Bombina bombina (Anura)
+3. SRR1693776; Ichthyophis bannanicus (Gymnophiona)
 
 **Actinopterygii**
 1. Takifugu rubripes (Tetraodontiformes); https://www.ensembl.org/Takifugu_rubripes/Info/Index *retrieve when site comes back online*
