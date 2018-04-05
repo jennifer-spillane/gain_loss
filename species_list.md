@@ -371,6 +371,9 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 3. Ciona savignyi; ftp://ftp.ensembl.org/pub/release-91/fasta/ciona_savignyi/pep/ (Phlebobranchia)
 
 **Thaliacea**
+1. SRR4072782, SRR4072793; Salpa thompsoni (Salpida)
+2. SRR6326578; Doliolum nationalis (Doliolida)
+3. SRR6363556; Pyrosomella verticillata (Pyrosomatida)
 
 **Appendicularia**
 
