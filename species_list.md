@@ -124,12 +124,10 @@ Lottia gigantea (Patellogastropoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/re
 2. DRR024788; Daphnia pulex (Anomopoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/daphnia_pulex/pep/
 
 **Insecta**
-1. SRR1324840-41; Camponotus aethiops (Hymenoptera)
-Atta cephalotes (Hymenoptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/atta_cephalotes/pep/Atta_cephalotes.Attacep1.0.pep.all.fa.gz
-2. SRR1324883-84; Culex hortensis (Diptera)
-Culex quinquefasciatus (Diptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/culex_quinquefasciatus/pep/Culex_quinquefasciatus.CpipJ2.pep.all.fa.gz
-3. SRR1324991-5000; Melitaea cinxia (Lepidoptera)
-4. Danaus plexippus (Lepidoptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/danaus_plexippus/pep/Danaus_plexippus.Dpv3.pep.all.fa.gz
+1. Bombus impatiens (Hymenoptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/bombus_impatiens/pep/Bombus_impatiens.BIMP_2.0.pep.all.fa.gz
+2. Drosophila melanogaster (Diptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/drosophila_melanogaster/pep/Drosophila_melanogaster.BDGP6.pep.all.fa.gz
+3. Danaus plexippus (Lepidoptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/danaus_plexippus/pep/Danaus_plexippus.Dpv3.pep.all.fa.gz
+4. Rhodnius prolixus (Hemiptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/rhodnius_prolixus/pep/Rhodnius_prolixus.RproC3.pep.all.fa.gz
 
 **Arachnida**
 1. Ixodes scapularis (Acari); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/ixodes_scapularis/pep/Ixodes_scapularis.IscaW1.pep.all.fa.gz
@@ -409,7 +407,7 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 3. Lepisosteus oculatus; ftp://ftp.ensembl.org/pub/release-91/fasta/lepisosteus_oculatus/pep/ (Lepisosteiformes)
 
 **Mammalia**
-1. SRR1324969-78; Lepus granatensis (Lagomorpha)
+1. Ornithorhynchus anatinus (Monotremata); https://www.ensembl.org/Ornithorhynchus_anatinus/Info/Index *retrieve when site comes back online*
 2. Mus musculus; ftp://ftp.ensembl.org/pub/release-91/fasta/mus_musculus/pep/
 3. Homo sapiens; ftp://ftp.ensembl.org/pub/release-91/fasta/homo_sapiens/pep/
 
@@ -532,6 +530,11 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 12. SRR1325007-16; Messor barbarus (Insecta)
 13. SRR1325038-45; Necora puber (Malacostraca)
 14. Branchiopoda: loads more Daphnia available.
+15. SRR1324840-41; Camponotus aethiops (Hymenoptera)
+16. Atta cephalotes (Hymenoptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/atta_cephalotes/pep/Atta_cephalotes.Attacep1.0.pep.all.fa.gz
+17. SRR1324883-84; Culex hortensis (Diptera)
+18. Culex quinquefasciatus (Diptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/culex_quinquefasciatus/pep/Culex_quinquefasciatus.CpipJ2.pep.all.fa.gz
+19. SRR1324991-5000; Melitaea cinxia (Lepidoptera)
 
 ### Nematoda
 1. SRR1324838-39; Caenorhabditis sp.
