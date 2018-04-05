@@ -384,6 +384,8 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 1. Petromyzon marinus; ftp://ftp.ensembl.org/pub/release-91/fasta/petromyzon_marinus/pep/ (Petromyzontiformes)
 
 **Chondrichthyes**
+1. SRR2039259; Potamotrygon (Myliobatiformes)
+2. SRR4436655; Cetorhinus maximus (Lamniformes)
 
 **Sarcopterygii**
 1. Latimeria chalumnae; ftp://ftp.ensembl.org/pub/release-91/fasta/latimeria_chalumnae/pep/ (Coelacanthiformes)
