@@ -377,11 +377,12 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 
 **Appendicularia**
 
-**Sorberacea**
-
 **Leptocardii**
+1. SRR923751; Branchiostoma floridae (Branchiostomatidae)
 
 **Myxini**
+1. DRR062842-43; Eptatretus atami (Eptatretinae)
+2. ERR2061163-65; Eptatretus burgeri (Eptatretinae)
 
 **Petromyzonti**
 1. Petromyzon marinus; ftp://ftp.ensembl.org/pub/release-91/fasta/petromyzon_marinus/pep/ (Petromyzontiformes)
