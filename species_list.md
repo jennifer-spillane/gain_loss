@@ -404,7 +404,7 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 1. Xenopus tropicalis; ftp://ftp.ensembl.org/pub/release-91/fasta/xenopus_tropicalis/pep/ (Anura)
 
 **Actinopterygii**
-1. SRR1324957-62; Hippocampus guttulatus (Syngnathiformes)
+1. Takifugu rubripes (Tetraodontiformes); https://www.ensembl.org/Takifugu_rubripes/Info/Index *retrieve when site comes back online*
 2. Danio rerio; ftp://ftp.ensembl.org/pub/release-91/fasta/danio_rerio/pep/ (Cypriniformes)
 3. Lepisosteus oculatus; ftp://ftp.ensembl.org/pub/release-91/fasta/lepisosteus_oculatus/pep/ (Lepisosteiformes)
 
