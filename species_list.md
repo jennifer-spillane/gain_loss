@@ -36,7 +36,7 @@
 
 **Homoscleromorpha**
 1. SRR3417194; Plakina jani - Simion et al. 2017 (Homosclerophorida)
-2. SRR499817, SRR499820, SRR504694; Corticium candelabrum (Homosclerophorida)
+2. SRR499817, SRR499820, SRR504694; Corticium candelabrum (Homosclerophorida *used SRR504694 first; will add more if necessary*
 
 ## Cnidaria
 **Anthozoa**
@@ -135,11 +135,14 @@ Lottia gigantea (Patellogastropoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/re
 3. Stegodyphus mimosarum (Araneae); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/stegodyphus_mimosarum/pep/Stegodyphus_mimosarum.Stegodyphus_mimosarum_v1.pep.all.fa.gz
 
 **Pycnogonida**
+1. SRR5237777; Anoplodactylus insignis (Pantopoda)
 
 **Merostomata**
+1. SRR1145732; Limulus polyphemus (Xiphosurida)
 
 **Chilopoda**
 1. Strigamia maritima (Geophilomorpha); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/strigamia_maritima/pep/Strigamia_maritima.Smar1.pep.all.fa.gz
+2. SRR1153457; Cryptops hortensis (Scolopendromorpha)
 
 **Diplopoda**
 
