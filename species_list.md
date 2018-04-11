@@ -22,8 +22,9 @@
 ## Porifera
 **Calcarea**
 1. SRR3417193; Grantia compressa - Simion et al. 2017
-2. SRR3417190; Leuconia nivea - Simion et al. 2017 *maybe*
-3. SRR3417192; Clathrina coriacea - Simion et al. 2017
+2. SRR3417190; Leuconia nivea - Simion et al. 2017 *maybe - not amazing*
+3. SRR3417192; Clathrina coriacea - Simion et al. 2017 *terrible*
+4. Sycon ciliatum (Leucosolenida); http://www.compagen.org/datasets/SCIL_T-PEP_130802.zip
 
 **Demospongiae**
 1. Amphimedon queenslandica - Srivastava et al. 2010; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/amphimedon_queenslandica/pep/Amphimedon_queenslandica.Aqu1.pep.all.fa.gz
@@ -36,13 +37,15 @@
 
 **Homoscleromorpha**
 1. SRR3417194; Plakina jani - Simion et al. 2017 (Homosclerophorida)
-2. SRR499817, SRR499820, SRR504694; Corticium candelabrum (Homosclerophorida *used SRR504694 first; will add more if necessary*
+2. SRR499817, SRR499820, SRR504694; Corticium candelabrum (Homosclerophorida) *used SRR504694 first; will add more if necessary*
+3. Oscarella carmela (Homosclerophorida); http://www.compagen.org/datasets/OCAR_G-PEP_120614.zip
 
 ## Cnidaria
 **Anthozoa**
 1. ERR2248380; Cerianthus borealis - Kayal et al. 2018 (Hexacorallia)
 2. Nematostella vectensis - Putnam et al. 2007 (Hexacorallia); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/nematostella_vectensis/pep/Nematostella_vectensis.ASM20922v1.pep.all.fa.gz
 3. SRR1552944; Corallium rubrum - Kayal et al. 2018 (Octocorallia)
+4. Acropora digitifera (Hexacorallia); http://www.compagen.org/datasets/ADIG_G-PEP_111201.zip
 
 **Cubozoa**
 1. SRR1819888; Chironex fleckeri - Kayal et al. 2018
@@ -84,10 +87,11 @@
 
 **Cephalopoda**
 1. SRR331946; Octopus vulgaris (Coleoidea)
-2. DRR068683; Uroteuthis edulis (Coleoidea) **maybe**
-3. SRR5626553; Nautilus pompilius (Nautiloidea) **maybe**
+2. DRR068683; Uroteuthis edulis (Coleoidea) *maybe*
+3. SRR5626553; Nautilus pompilius (Nautiloidea) *maybe*
 4. Check out this study again: PRJNA320263
 5. Octopus bimaculoides; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/octopus_bimaculoides/pep/Octopus_bimaculoides.PRJNA270931.pep.all.fa.gz
+6. SRR3472303; Loligo vulgaris (Myopsida) *only 10M reads, but may be enough*
 
 **Gastropoda**
 1. SRR1505133; Prothalotia lehmanni (Vetigastropoda) - Zapata et al. 2014
@@ -145,34 +149,37 @@ Lottia gigantea (Patellogastropoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/re
 2. SRR1153457; Cryptops hortensis (Scolopendromorpha)
 
 **Diplopoda**
+1. SRR3233211; Glomeris marginata (Glomerida)
 
 **Pauropoda**
+1. SRR6145369; Pauropus huxleyi (Tetramerocerata)
 
 **Symphyla**
+1. SRR3458649; Scutigerella sp. ()
 
 **Remipedia**
 
 **Cephalocarida**
-
+1. SRR4113505; Hutchinsoniella macracantha (Brachypoda)
 **Maxillopoda**
 1. Lepeophtheirus salmonis (Siphonostomatoida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/lepeophtheirus_salmonis/pep/Lepeophtheirus_salmonis.LSalAtl2s.pep.all.fa.gz
 
 **Ostracoda**
+1. SRR4113497; Eusarsiella sp. (Myodocopida)
 
 **Entognatha**
+1. SRR1182465; Occasjapyx japonicus
 
 ## Brachiopoda
 **Craniata**
 1. SRR1611564; Novocrania anomala (Craniida)
 
 **Lingulata**
-1. SRR1611555; Glottidia pyramidata (Lingulida)
-2. Lingula anatina (Lingulida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/lingula_anatina/pep/Lingula_anatina.LinAna1.0.pep.all.fa.gz
+1. Lingula anatina (Lingulida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/lingula_anatina/pep/Lingula_anatina.LinAna1.0.pep.all.fa.gz
 
 **Rhynchonellata**
 1. SRR1611556; Hemithiris psittacea (Rhynchonellida)
-2. SRR1611557; Laqueus californianus (Terebratulida)
-3. SRR2564755; Terebratalia transversa (Terebratulida)
+2. SRR2564755; Terebratalia transversa (Terebratulida)
 
 ## Bryozoa
 **Gymnolaemata**
@@ -186,25 +193,21 @@ Lottia gigantea (Patellogastropoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/re
 ## Cephalorhyncha
 **Priapulida**
 1. SRR1611567; Priapulus caudatus (Priapulidae) (or SRR1176793)
-2. SRR2131688; Tubiluchus corallicola (Tubiluchidae)
-3. SRR2682062; Halicryptus spinulosus (Priapulidae) (TONS of reads - might be weird)
 
 **Kinorhyncha**
 
-**Loricifera**
+## Loricifera
 1. SRR2131253; Armorloricus elegans (Nanaloricida)
 
 ## Annelida
 **Polychaeta**
 1. Capitella teleta (Capitellidae); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/capitella_teleta/pep/Capitella_teleta.Capitella_teleta_v1.0.pep.all.fa.gz
 2. SRR2057016; Clymenella torquata (Sedentaria)
-3. SRR2057019; Glycera dibranchiata (Errantia)
 
 **Clitellata**
-1. DRR023799; Eisenia andrei (Oligochaeta)
-2. ERR693859; Eisenia fetida (Oligochaeta) (or ERR693860-ERR693867)
-3. SRR1324774-83; Allolobophora chlorotica (Oligochaeta)
-Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/helobdella_robusta/pep/Helobdella_robusta.Helro1.pep.all.fa.gz
+1. ERR693859; Eisenia fetida (Oligochaeta) (or ERR693860-ERR693867)
+2. SRR1324774-83; Allolobophora chlorotica (Oligochaeta)
+3. Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/helobdella_robusta/pep/Helobdella_robusta.Helro1.pep.all.fa.gz
 
 **Echiura**
 
@@ -222,13 +225,11 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 
 ## Cycliophora
 **Eucycliophora**
-1. SRR2131690; Symbion americanus (Symbiida) *not an amazing number of reads (>2mil)*
-2. SRR3102772; Symbion pandora (Symbiida)
+1. SRR3102772; Symbion pandora (Symbiida)
 
 ## Dicyemida
 **Rhombozoa**
-1. DRR057371; Dicyema japonicum (Dicyemidae)
-2. SRR827581; Dicyema sp. (Dicyemidae)
+1. SRR827581; Dicyema sp. (Dicyemidae)
 
 ## Entoprocta
 1. SRR1611554; Barentsia gracilis (Barentsiidae)
@@ -244,28 +245,20 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 ## Nematoda *look at more Nematoda phylogeny - groupings seem off*
 **Chromadorea**
 1. Caenorhabditis elegans; ftp://ftp.ensembl.org/pub/release-91/fasta/caenorhabditis_elegans/pep/Caenorhabditis_elegans.WBcel235.pep.all.fa.gz (Rhabditida)
-2. Strongyloides venezuelensis (Rhabditida) ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS10/species/strongyloides_venezuelensis/PRJEB530/strongyloides_venezuelensis.PRJEB530.WBPS10.protein.fa.gz *or, alternatively:* DRR029282
-3. Loa loa (Spirurida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/loa_loa/pep/Loa_loa.Loa_loa_V3.pep.all.fa.gz
-
+2. Meloidogyne incognita;  ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS10/species/meloidogyne_incognita/PRJEA28837/meloidogyne_incognita.PRJEA28837.WBPS10.protein.fa.gz
 **Enoplea**
-1. ERR279671-72; Trichuris muris (Trichurida)
-2. ERR744622; Longidorus elongatus (Dorylaimida)
-3. ERR660661; Enoplus brevis (Enoplida)
-4. Trichinella spiralis; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/trichinella_spiralis/pep/Trichinella_spiralis.Tspiralis1.pep.all.fa.gz
+1. Trichinella spiralis; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/trichinella_spiralis/pep/Trichinella_spiralis.Tspiralis1.pep.all.fa.gz
 
 ## Nemertea
 **Palaeonemertea**
 1. SRR618505; Cephalothrix hongkongiensis (Cephalothricidae)
-2. SRX534866, SRR1275178, SRR1273790, SRR1275323; Cephalothrix linearis (Cephalothricidae)
-3. SRR1611583; Tubulanus polymorphus (Tubulanidae)
+2. SRR1611583; Tubulanus polymorphus (Tubulanidae)
 
 **Anopla**
 1. SRR618507; Cerebratulus marginatus (Heteronemertea)
-2. SRR1324980; Ramphogordius lacteus/Lineus lacteus (Heteronemertea) - SRR1324979 if more reads are needed
 
 **Enopla**
-1. SRR1611560; Malacobdella grossa (Hoplonemertea)
-2. SRR1611562; Paranemertes peregrina (Hoplonemertea)
+1. SRR1611562; Paranemertes peregrina (Hoplonemertea)
 
 ## Orthonectida
 1. SRR5031247, SRR4418799; Intoshia linei (Rhopaluridae)
@@ -273,32 +266,24 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 ## Platyhelminthes
 **Cestoda**
 1. ERR225716-27; Hymenolepis microstoma (Cyclophyllidea)
-2. ERR233394-98; Echinococcus multilocularis (Cyclophyllidea)
 
 **Monogenea**
 1. SRR5816789; Eudiplozoon nipponicum (Polyopisthocotylea)
 
 **Trematoda**
 1. ERR1328128-35; Schistosoma mansoni (Diplostomida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/schistosoma_mansoni/pep/Schistosoma_mansoni.ASM23792v2.pep.all.fa.gz
-2. SRR6232239; Opisthorchis felineus (Plagiorchiida)
 
 **Rhabditophora**
-1. SRR2682326; Macrostomum lignano (Macrostomidae)
 2. DRR014788; Bdellocephala annandalei (Tricladida)
-3. ERR273945-46; Dugesia japonica (Tricladida)
 
 **Catenulida**
-1. SRR1796434; Catenula lemnae (Catenulidae)
 2. SRR1801788; Stenostomum sthenum (Stenostomidae)
-3. SRR1910423; Stenostomum leucops (Stenostomidae)
 
 ## Phoronida
-1. SRR1611565; Phoronis psammophila (Phoronidae)
-2. SRR1611566; Phoronis vancouverensis (Phoronidae)
+1. SRR1611566; Phoronis vancouverensis (Phoronidae)
 
 ## Rotifera
 **Eurotatoria**
-1. SRR3404576; Brachionus plicatilis (Monogononta)
 2. ERR454505; Rotaria rotatoria (Bdelloidea)
 3. SRR1976570; Lepadella patella (Monogononta)
 4. Adineta vaga; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/adineta_vaga/pep/
@@ -308,18 +293,14 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 ## Sipuncula
 **Phascolosomatidea**
 1. SRR1646260; Antillesoma antillarum (Phascolosomatida)
-2. SRR1646391; Aspidosiphon parvulus (Aspidosiphonida)
-3. SRR1646442; Phascolosoma perlucens (Phascolosomatida)
 
 **Sipunculidea**
 1. SRR1646439; Nephasoma pellucidum (Golfingiida)
-2. SRR1646440; Phascolion cryptum (Golfingiida)
 
 ## Tardigrada
 **Eutardigrada**
 1. DRR013911; Ramazzottius varieornatus (Parachaela)
 2. SRR1739983; Hypsibius dujardini (Parachaela)
-3. SRR5367859; Paramacrobiotus richtersi (Parachaela)
 
 **Heterotardigrada**
 
@@ -332,51 +313,42 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 
 ## Echinodermata
 **Echinoidea**
-1. SRR1324764-66; Abatus agassizii (Euechinoidea)
-2. SRR1324904-10; Echinocardium mediterraneum (Spatangoida)
-3. Strongylocentrotus purpuratus (Euechinoidea); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/strongylocentrotus_purpuratus/pep/Strongylocentrotus_purpuratus.Spur_3.1.pep.all.fa.gz
+1. SRR1324904-10; Echinocardium mediterraneum (Spatangoida)
+2. Strongylocentrotus purpuratus (Euechinoidea); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/strongylocentrotus_purpuratus/pep/Strongylocentrotus_purpuratus.Spur_3.1.pep.all.fa.gz
 
 **Crinozoa**
-1. DRR023764; Metacrinus rotundus (Isocrinida)
-2. SRR1695483; Dumetocrinus sp. JTC-2014 (Hyocrinida)
-3. SRR2845003; Isometra vivipara (Comatulida)
+1. SRR1695483; Dumetocrinus sp. JTC-2014 (Hyocrinida)
+2. SRR2845003; Isometra vivipara (Comatulida)
 
 **Ophiuroidea**
 1. SRR1325046-52; Ophioderma longicauda (Ophiacanthida)
 2. SRR3217895; Luidia senegalensis (Paxillosida)
-3. SRR3217897; Ophiothrix angulata (Amphilepidida)
 
 **Asteroidea**
 1. SRR1695480-81; Labidiaster annulatus (Forcipulatida)
 2. SRR2846094; Pteraster tesselatus (Velatida)
-3. SRR2454338; Patiria miniata (Valvatida)
 
 **Holothuroidea**
-1. SRR3217898; Leptosynapta tenuis (Apodida)
-2. DRR023762; Holothuria leucospilota (Holothuriida)
-3. ERR1193930; Apostichopus japonicus (Synallactida)
+1. DRR023762; Holothuria leucospilota (Holothuriida)
+2. ERR1193930; Apostichopus japonicus (Synallactida)
 
 ## Hemichordata
 **Enteropneusta**
-1. SRR1695458; Ptychodera bahamensis
-2. SRR1695460; Balanoglossus cf. aurantiaca
-3. SRR1695461; Saccoglossus mereschkowskii
+1. Ptychodera flava; http://marinegenomics.oist.jp/acornworm/download/pfl_public_ver1.0.prot or http://octopus.unit.oist.jp/HEMIDATA/pfl.prot
+2. Saccoglossus kowalevskii; http://octopus.unit.oist.jp/HEMIDATA/sko.prot
 
 **Graptolithoidea**
-1. SRR1695470; Cephalodiscus hodgsoni
-2. SRR1695472; Cephalodiscus nigrescens
-3. SRR1806842; Rhabdopleura sp. BE-2015
+1. SRR1695472; Cephalodiscus nigrescens
+2. SRR1806842; Rhabdopleura sp. BE-2015
 
 ## Chordata
 **Ascidiacea**
-1. SRR1324853-72; Ciona intestinalis (Phlebobranchia)
-2. SRR1324897-903; Cystodytes dellechiajei (Aplousobranchia)
-3. Ciona savignyi; ftp://ftp.ensembl.org/pub/release-91/fasta/ciona_savignyi/pep/ (Phlebobranchia)
+1. SRR1324897-903; Cystodytes dellechiajei (Aplousobranchia)
+2. Ciona savignyi; ftp://ftp.ensembl.org/pub/release-91/fasta/ciona_savignyi/pep/ (Phlebobranchia)
 
 **Thaliacea**
-1. SRR4072782, SRR4072793; Salpa thompsoni (Salpida)
-2. SRR6326578; Doliolum nationalis (Doliolida)
-3. SRR6363556; Pyrosomella verticillata (Pyrosomatida)
+1. SRR6326578; Doliolum nationalis (Doliolida)
+2. SRR6363556; Pyrosomella verticillata (Pyrosomatida)
 
 **Appendicularia**
 
@@ -398,29 +370,27 @@ Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/r
 1. Latimeria chalumnae; ftp://ftp.ensembl.org/pub/release-91/fasta/latimeria_chalumnae/pep/ (Coelacanthiformes)
 
 **Aves**
-1. SRR1324788-97; Aptenodytes patagonicus (Sphenisciformes)
-2. SRR1325067-76; Parus caeruleus (Cyanistes caeruleus) (Passeriformes)
-3. Gallus gallus; ftp://ftp.ensembl.org/pub/release-91/fasta/gallus_gallus/pep/ (Galliformes)
+1. SRR1325067-76; Parus caeruleus (Cyanistes caeruleus) (Passeriformes)
+2. Gallus gallus; ftp://ftp.ensembl.org/pub/release-91/fasta/gallus_gallus/pep/ (Galliformes)
 
 **Reptilia**
-1. SRR1324848-52; Chelonoidis nigra (Turtle)
-2. SRR1324918-27; Emys orbicularis (Testudines)
-3. Anolis carolinensis; ftp://ftp.ensembl.org/pub/release-91/fasta/anolis_carolinensis/pep/ (Squamata)
+1. SRR1324918-27; Emys orbicularis (Testudines)
+2. Anolis carolinensis; ftp://ftp.ensembl.org/pub/release-91/fasta/anolis_carolinensis/pep/ (Squamata)
 
 **Amphibia**
 1. DRX015082-91; Hynobius retardatus (Caudata)
 2. ERR632222; Bombina bombina (Anura)
-3. SRR1693776; Ichthyophis bannanicus (Gymnophiona)
 
 **Actinopterygii**
-1. Takifugu rubripes (Tetraodontiformes); https://www.ensembl.org/Takifugu_rubripes/Info/Index *retrieve when site comes back online*
-2. Danio rerio; ftp://ftp.ensembl.org/pub/release-91/fasta/danio_rerio/pep/ (Cypriniformes)
-3. Lepisosteus oculatus; ftp://ftp.ensembl.org/pub/release-91/fasta/lepisosteus_oculatus/pep/ (Lepisosteiformes)
+1. Takifugu rubripes (Tetraodontiformes); ftp://ftp.ensembl.org/pub/release-92/fasta/takifugu_rubripes/pep/Takifugu_rubripes.FUGU4.pep.all.fa.gz
+2. Danio rerio; ftp://ftp.ensembl.org/pub/release-91/fasta/danio_rerio/pep/Danio_rerio.GRCz10.pep.all.fa.gz (Cypriniformes)
+3. Lepisosteus oculatus; ftp://ftp.ensembl.org/pub/release-91/fasta/lepisosteus_oculatus/pep/Lepisosteus_oculatus.LepOcu1.pep.all.fa.gz (Lepisosteiformes)
 
 **Mammalia**
-1. Ornithorhynchus anatinus (Monotremata); https://www.ensembl.org/Ornithorhynchus_anatinus/Info/Index *retrieve when site comes back online*
-2. Mus musculus; ftp://ftp.ensembl.org/pub/release-91/fasta/mus_musculus/pep/
-3. Homo sapiens; ftp://ftp.ensembl.org/pub/release-91/fasta/homo_sapiens/pep/
+1. Ornithorhynchus anatinus (Monotremata); ftp://ftp.ensembl.org/pub/release-92/fasta/ornithorhynchus_anatinus/pep/Ornithorhynchus_anatinus.OANA5.pep.all.fa.gz
+2. Peromyscus eremicus; on Matt's hard drive
+3. Homo sapiens; ftp://ftp.ensembl.org/pub/release-91/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz
+4. Monodelphis domestica; ftp://ftp.ensembl.org/pub/release-92/fasta/monodelphis_domestica/pep/Monodelphis_domestica.monDom5.pep.all.fa.gz
 
 
 
@@ -511,11 +481,24 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 1. SRX565176-SRX565181; Lineus longissimus (Anopla)
 2. SRX565182-SRX565183; Lineus ruber (Anopla)
 3. SRR1273849, SRR1275406, SRR1273850, SRR1275407; Tubulanus polymorphus (Palaeonemertea)
+2. SRX534866, SRR1275178, SRR1273790, SRR1275323; Cephalothrix linearis (Cephalothricidae)
+2. SRR1324980; Ramphogordius lacteus/Lineus lacteus (Heteronemertea) - SRR1324979 if more reads are needed
+1. SRR1611560; Malacobdella grossa (Hoplonemertea)
 
 ###Annelida
 1. SRR2057036; Pectinaria gouldii (Polychaeta)
 2. SRR2052565; Alitta succinea (Polychaeta)
 3. SRR2057014; Boccardia proboscidea (Sedentaria)
+4. SRR2057019; Glycera dibranchiata (Errantia)
+1. DRR023799; Eisenia andrei (Oligochaeta)
+
+### Brachiopoda
+1. SRR1611555; Glottidia pyramidata (Lingulida)
+2. SRR1611557; Laqueus californianus (Terebratulida)
+
+### Cephalorhyncha
+2. SRR2131688; Tubiluchus corallicola (Tubiluchidae)
+3. SRR2682062; Halicryptus spinulosus (Priapulidae) (TONS of reads - might be weird)
 
 ### Echinodermata
 1. SRR1324766-73; Abatus cordatus (Echinoidea)
@@ -525,6 +508,11 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 5. Study accession with many more Ophiuroidea: PRJNA311384
 6. SRR1708282; Pycnopodia helianthoides (Asteroidea)
 7. SRR1642063; Asterias amurensis (Asteroidea)
+1. SRR1324764-66; Abatus agassizii (Euechinoidea)
+1. DRR023764; Metacrinus rotundus (Isocrinida)
+3. SRR3217897; Ophiothrix angulata (Amphilepidida)
+3. SRR2454338; Patiria miniata (Valvatida)
+1. SRR3217898; Leptosynapta tenuis (Apodida)
 
 ### Arthropoda
 1. SRR1324800-09; Armadillidium vulgare (Isopoda)
@@ -547,10 +535,18 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 18. Culex quinquefasciatus (Diptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/culex_quinquefasciatus/pep/Culex_quinquefasciatus.CpipJ2.pep.all.fa.gz
 19. SRR1324991-5000; Melitaea cinxia (Lepidoptera)
 
+### Cycliophora
+1. SRR2131690; Symbion americanus (Symbiida) *not an amazing number of reads (>2mil)*
+
 ### Nematoda
 1. SRR1324838-39; Caenorhabditis sp.
 2. SRR1324828-37; Caenorhabditis brenneri (Rhabditida)
 3. ERR037674; Dirofilaria immitis (Spirurida)
+1. ERR279671-72; Trichuris muris (Trichurida)
+2. ERR744622; Longidorus elongatus (Dorylaimida)
+3. ERR660661; Enoplus brevis (Enoplida)
+2. Strongyloides venezuelensis (Rhabditida) ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS10/species/strongyloides_venezuelensis/PRJEB530/strongyloides_venezuelensis.PRJEB530.WBPS10.protein.fa.gz *or, alternatively:* DRR029282
+3. Loa loa (Spirurida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/loa_loa/pep/Loa_loa.Loa_loa_V3.pep.all.fa.gz
 
 ### Chordata
 1. SRR1324928-31; Eudyptes filholi (Aves)
@@ -570,12 +566,37 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 5. SRR1695468; Torquaratoridae sp.
 6. SRR1695473; Cephalodiscus gracilis
 7. SRR1695476; Rhabdopleura sp. 1 JTC-2014
+1. SRR1695458; Ptychodera bahamensis
+2. SRR1695460; Balanoglossus cf. aurantiaca
+3. SRR1695461; Saccoglossus mereschkowskii
+1. SRR1695470; Cephalodiscus hodgsoni
+
+### Dicyema
+1. DRR057371; Dicyema japonicum (Dicyemidae)
 
 ### Sipuncula
 1. PRJNA266624 = study accession for more if necessary
+2. SRR1646391; Aspidosiphon parvulus (Aspidosiphonida)
+3. SRR1646442; Phascolosoma perlucens (Phascolosomatida)
+2. SRR1646440; Phascolion cryptum (Golfingiida)
+
+### Phoronida
+1. SRR1611565; Phoronis psammophila (Phoronidae)
+
+### Tardigrada
+3. SRR5367859; Paramacrobiotus richtersi (Parachaela)
+
+### Platyhelminthes
+2. ERR233394-98; Echinococcus multilocularis (Cyclophyllidea)
+2. SRR6232239; Opisthorchis felineus (Plagiorchiida)
+1. SRR2682326; Macrostomum lignano (Macrostomidae)
+3. ERR273945-46; Dugesia japonica (Tricladida)
+1. SRR1796434; Catenula lemnae (Catenulidae)
+3. SRR1910423; Stenostomum leucops (Stenostomidae)
 
 ### Rotifera
 1. SRR2429147; Rotaria magnacalcarata
 2. SRR2430028; Rotaria socialis
 3. SRR2430030; Rotaria sordida
 4. SRR2430032; Rotaria tardigrada
+1. SRR3404576; Brachionus plicatilis (Monogononta)
