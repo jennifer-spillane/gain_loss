@@ -96,9 +96,9 @@
 **Gastropoda**
 1. SRR1505133; Prothalotia lehmanni (Vetigastropoda) - Zapata et al. 2014
 4. SRR1505114; Janthina janthina (Caenogastropoda) - Zapata et al. 2014
-2. SRR1505118; Microhedyle glandulifera (Heterobranchia) - Zapata et al. 2014
+2. SRR1505107; Clione antarctica (Heterobranchia) - Zapata et al. 2014
 3. SRR1505122; Nerita peloronta (Neritimorpha) - Zapata et al. 2014
-Lottia gigantea (Patellogastropoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/lottia_gigantea/pep/Lottia_gigantea.Lotgi1.pep.all.fa.gz
+4. Lottia gigantea (Patellogastropoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/lottia_gigantea/pep/Lottia_gigantea.Lotgi1.pep.all.fa.gz
 
 **Monoplacophora**
 1. SRR1505115; Laevipilina hyalina (Tryblidiida) - Zapata et al. 2014
@@ -438,7 +438,8 @@ SRR2472984; Myxobolus pendula - Myxozoa - Kayal et al. 2018
 1. SRR1505101; Amphiplica gordensis (Vetigastropoda) - Zapata et al. 2014
 2. SRR1505102; Architectonica perspectiva (Heterobranchia) - Zapata et al. 2014
 3. SRR1505104; Bathydoris clavigera (Heterobranchia) - Zapata et al. 2014
-4. SRR1505107; Clione antarctica (Heterobranchia) - Zapata et al. 2014
+SRR1505118; Microhedyle glandulifera (Heterobranchia) - Zapata et al. 2014
+4.
 5. SRR1505108; Doris kerguelenensis (Heterobranchia) - Zapata et al. 2014
 6. SRR1505109; Fiona pinnata (Heterobranchia) - Zapata et al. 2014
 7. SRR1505110; Granata imbricata (Vetigastropoda) - Zapata et al. 2014
