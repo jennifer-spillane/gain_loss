@@ -161,6 +161,7 @@
 
 **Cephalocarida**
 1. SRR4113505; Hutchinsoniella macracantha (Brachypoda)
+
 **Maxillopoda**
 1. Lepeophtheirus salmonis (Siphonostomatoida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/lepeophtheirus_salmonis/pep/Lepeophtheirus_salmonis.LSalAtl2s.pep.all.fa.gz
 
@@ -184,7 +185,7 @@
 ## Bryozoa
 **Gymnolaemata**
 1. SRR2131259; Membranipora membranacea (Cheilostomatida)
-2. *developmental stages:* SRR1237126-28; Bugula neritina (Cheilostomatida)
+2. *developmental stages:* SRR1237126-28; Bugula neritina (Cheilostomatida) **haven't entered this one into the spreadsheet yet**
 
 **Phylactolaemata**
 
@@ -274,10 +275,10 @@
 1. ERR1328128-35; Schistosoma mansoni (Diplostomida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/schistosoma_mansoni/pep/Schistosoma_mansoni.ASM23792v2.pep.all.fa.gz
 
 **Rhabditophora**
-2. DRR014788; Bdellocephala annandalei (Tricladida)
+1. DRR014788; Bdellocephala annandalei (Tricladida)
 
 **Catenulida**
-2. SRR1801788; Stenostomum sthenum (Stenostomidae)
+1. SRR1801788; Stenostomum sthenum (Stenostomidae)
 
 ## Phoronida
 1. SRR1611566; Phoronis vancouverensis (Phoronidae)
@@ -370,7 +371,7 @@
 1. Latimeria chalumnae; ftp://ftp.ensembl.org/pub/release-91/fasta/latimeria_chalumnae/pep/ (Coelacanthiformes)
 
 **Aves**
-1. SRR1325067-76; Parus caeruleus (Cyanistes caeruleus) (Passeriformes)
+1. Taeniopygia guttata; ftp://ftp.ensembl.org/pub/release-92/fasta/taeniopygia_guttata/pep/Taeniopygia_guttata.taeGut3.2.4.pep.all.fa.gz
 2. Gallus gallus; ftp://ftp.ensembl.org/pub/release-91/fasta/gallus_gallus/pep/ (Galliformes)
 
 **Reptilia**
@@ -403,77 +404,76 @@
 ## Alternates:
 
 ### Ctenophores:
-SRR6074519; Pleurobrachia sp. A LM 2017 - Cydippida - Whelan et al. 2017
-SRR6074518; Mertensiidae sp. LM 2017 - Cydippida - Whelan et al. 2017
-SRR6074517; Pleurobrachia sp. C LM 2017 - Cydippida - Whelan et al. 2017
-SRR6074511; Cydippida sp. LM 2017 - Cydippida - Whelan et al. 2017
-SRR6074514; Pleurobrachia pileus - Cydippida - Whelan et al. 2017
-SRR6074508; Ocyropsis crystallina guttata - Lobata - Whelan et al. 2017
-SRR6074512; Ctenophora sp. LM 2017 - Lobata - Whelan et al. 2017
-SRR6074510; Eurhamphaea vexilligera - Lobata - Whelan et al. 2017
-SRR6074509; Mnemiopsis leidyi - Whelan et al. 2017
+- SRR6074519; Pleurobrachia sp. A LM 2017 - Cydippida - Whelan et al. 2017
+- SRR6074518; Mertensiidae sp. LM 2017 - Cydippida - Whelan et al. 2017
+- SRR6074517; Pleurobrachia sp. C LM 2017 - Cydippida - Whelan et al. 2017
+- SRR6074511; Cydippida sp. LM 2017 - Cydippida - Whelan et al. 2017
+- SRR6074514; Pleurobrachia pileus - Cydippida - Whelan et al. 2017
+- SRR6074508; Ocyropsis crystallina guttata - Lobata - Whelan et al. 2017
+- SRR6074512; Ctenophora sp. LM 2017 - Lobata - Whelan et al. 2017
+- SRR6074510; Eurhamphaea vexilligera - Lobata - Whelan et al. 2017
+- SRR6074509; Mnemiopsis leidyi - Whelan et al. 2017
 
 ### Poriferans
-SRR1916581; Sympagella nux
+- SRR1916581; Sympagella nux
 
 ### Cnidarians:
-ERR2248383; Lucernaria quadricornis - Staurozoa - Kayal et al. 2018
-ERR2248384; ERR2248385; ERR2248386; ERR2248387; ERR2248388; ERR2248389; ERR2248390; ERR2248391; ERR2248392; ERR2248393; ERR2248394; ERR2248395; Haliclystus sanjuanensis - Staurozoa - Kayal et al. 2018
-SRR1645256; Anthopleura elegantissima - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR3198576; Corynactis australis - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR3201278; Rhodactis indosinensis - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR3201251; Ricordea yuma - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR2300562; Lobactis scutaria - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR2306543; Montastraea cavernosa - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR402974; Platygyra carnosa - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR2300678; Seriatopora hystrix - Anthozoa, Hexacorallia - Kayal et al. 2018
-SRR1324943; Eunicella cavolinii - Anthozoa, Octocorallia - Kayal et al. 2018
-SRR1324944; Eunicella verrucosa - Anthozoa, Octocorallia - Kayal et al. 2018
-SRR935083; Gorgonia ventalina - Anthozoa, Octocorallia - Kayal et al. 2018
-SRR1324968; Leptogorgia sarmentosa - Anthozoa, Octocorallia - Kayal et al. 2018
-SRR2472984; Myxobolus pendula - Myxozoa - Kayal et al. 2018
+- ERR2248383; Lucernaria quadricornis - Staurozoa - Kayal et al. 2018
+- ERR2248384; ERR2248385; ERR2248386; ERR2248387; ERR2248388; ERR2248389; ERR2248390; - ERR2248391; ERR2248392; ERR2248393; ERR2248394; ERR2248395; Haliclystus sanjuanensis - Staurozoa - Kayal et al. 2018
+- SRR1645256; Anthopleura elegantissima - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR3198576; Corynactis australis - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR3201278; Rhodactis indosinensis - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR3201251; Ricordea yuma - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR2300562; Lobactis scutaria - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR2306543; Montastraea cavernosa - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR402974; Platygyra carnosa - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR2300678; Seriatopora hystrix - Anthozoa, Hexacorallia - Kayal et al. 2018
+- SRR1324943; Eunicella cavolinii - Anthozoa, Octocorallia - Kayal et al. 2018
+- SRR1324944; Eunicella verrucosa - Anthozoa, Octocorallia - Kayal et al. 2018
+- SRR935083; Gorgonia ventalina - Anthozoa, Octocorallia - Kayal et al. 2018
+- SRR1324968; Leptogorgia sarmentosa - Anthozoa, Octocorallia - Kayal et al. 2018
+- SRR2472984; Myxobolus pendula - Myxozoa - Kayal et al. 2018
 
 ###Molluscs:
-27. SRR1505134; Pyropelta sp. (Vetigastropoda) - Zapata et al. 2014
-1. SRR1505101; Amphiplica gordensis (Vetigastropoda) - Zapata et al. 2014
-2. SRR1505102; Architectonica perspectiva (Heterobranchia) - Zapata et al. 2014
-3. SRR1505104; Bathydoris clavigera (Heterobranchia) - Zapata et al. 2014
-SRR1505118; Microhedyle glandulifera (Heterobranchia) - Zapata et al. 2014
-4.
-5. SRR1505108; Doris kerguelenensis (Heterobranchia) - Zapata et al. 2014
-6. SRR1505109; Fiona pinnata (Heterobranchia) - Zapata et al. 2014
-7. SRR1505110; Granata imbricata (Vetigastropoda) - Zapata et al. 2014
-8. SRR1505111; Haminoea antillarum (Vetigastropoda) - Zapata et al. 2014
-9. SRR1505112; Hinea brasiliana (Caenogastropoda) - Zapata et al. 2014
-10. SRR1505113; Hydatina physis (Heterobranchia) - Zapata et al. 2014
-12. SRR1505116; Lepetodrilus fucensis (Vetigastropoda) - Zapata et al. 2014
-14. SRR1505119; Monodonta labio (Vetigastropoda) - Zapata et al. 2014
-16. SRR1505123; Onchidella floridana (Heterobranchia) - Zapata et al. 2014
-17. SRR1505124; Ophicardelus sulcatus (Heterobranchia) - Zapata et al. 2014
-18. SRR1505125; Oxynoe viridis (Heterobranchia) - Zapata et al. 2014
-19. SRR1505126; Paralepetopsis sp. (Patellogastropoda) - Zapata et al. 2014
-20. SRR1505127; Phallomedusa solida (Heterobranchia) - Zapata et al. 2014
-21. SRR1505128; Phasianella ventricosa (Vetigastropoda) - Zapata et al. 2014
-22. SRR1505129; Philine angasi (Heterobranchia) - Zapata et al. 2014
-23. SRR1505131; Euspira heros (Caenogastropoda) - Zapata et al. 2014
-24. SRR1505132; Pomacea diffusa (Caenogastropoda) - Zapata et al. 2014
-25. SRR1505130; Pleurobranchaea californica (Heterobranchia) - Zapata et al. 2014
-28. SRR1505135; Rissoella caribaea (Heterobranchia) - Zapata et al. 2014
-29. SRR1505136; Rubyspira osteovora (Caenogastropoda) - Zapata et al. 2014
-30. SRR1505137; Strubellia wawrai (Heterobranchia) - Zapata et al. 2014
-31. SRR1505138; Titiscania limacina (Neritimorpha) - Zapata et al. 2014
-32. SRR1505139; Turbonilla sp. (Heterobranchia) - Zapata et al. 2014
-33. SRR1505140; Tylodina fungina (Heterobranchia) - Zapata et al. 2014
-34. SRR1505141; Urosalpinx cinerea (Caenogastropoda) - Zapata et al. 2014
-3. SRR1505120; Myochama anomioides (Heterodonta) - Zapata et al. 2014
-2. SRR1505117; Mercenaria campechiensis (Heterodonta) - Zapata et al. 2014
-35. SRX565221-SRX565224; Mytilus edulis (Bivalvia)
-36. SRX593725; Sepia esculenta (Cephalopoda) - only the sucker transcriptome
-37. SRX593724; Dosidicus gigas (Cephalopoda) - only the sucker transcriptome
-38. SRX591339; Sepioteuthis lessoniana (Cephalopoda) - only the sucker transcriptome
-39. SRR2057023; Macellomenia schanderi (Solenogastres)
-40. SRR2057026; Neomenia carinata (Solenogastres)
-41. SRR2057025; Nuculana pernula (Bivalvia)
+- SRR1505134; Pyropelta sp. (Vetigastropoda) - Zapata et al. 2014
+- SRR1505101; Amphiplica gordensis (Vetigastropoda) - Zapata et al. 2014
+- SRR1505102; Architectonica perspectiva (Heterobranchia) - Zapata et al. 2014
+- SRR1505104; Bathydoris clavigera (Heterobranchia) - Zapata et al. 2014
+- SRR1505118; Microhedyle glandulifera (Heterobranchia) - Zapata et al. 2014
+- SRR1505108; Doris kerguelenensis (Heterobranchia) - Zapata et al. 2014
+- SRR1505109; Fiona pinnata (Heterobranchia) - Zapata et al. 2014
+- SRR1505110; Granata imbricata (Vetigastropoda) - Zapata et al. 2014
+- SRR1505111; Haminoea antillarum (Vetigastropoda) - Zapata et al. 2014
+- SRR1505112; Hinea brasiliana (Caenogastropoda) - Zapata et al. 2014
+- SRR1505113; Hydatina physis (Heterobranchia) - Zapata et al. 2014
+- SRR1505116; Lepetodrilus fucensis (Vetigastropoda) - Zapata et al. 2014
+- SRR1505119; Monodonta labio (Vetigastropoda) - Zapata et al. 2014
+- SRR1505123; Onchidella floridana (Heterobranchia) - Zapata et al. 2014
+- SRR1505124; Ophicardelus sulcatus (Heterobranchia) - Zapata et al. 2014
+- SRR1505125; Oxynoe viridis (Heterobranchia) - Zapata et al. 2014
+- SRR1505126; Paralepetopsis sp. (Patellogastropoda) - Zapata et al. 2014
+- SRR1505127; Phallomedusa solida (Heterobranchia) - Zapata et al. 2014
+- SRR1505128; Phasianella ventricosa (Vetigastropoda) - Zapata et al. 2014
+- SRR1505129; Philine angasi (Heterobranchia) - Zapata et al. 2014
+- SRR1505131; Euspira heros (Caenogastropoda) - Zapata et al. 2014
+- SRR1505132; Pomacea diffusa (Caenogastropoda) - Zapata et al. 2014
+- SRR1505130; Pleurobranchaea californica (Heterobranchia) - Zapata et al. 2014
+- SRR1505135; Rissoella caribaea (Heterobranchia) - Zapata et al. 2014
+- SRR1505136; Rubyspira osteovora (Caenogastropoda) - Zapata et al. 2014
+- SRR1505137; Strubellia wawrai (Heterobranchia) - Zapata et al. 2014
+- SRR1505138; Titiscania limacina (Neritimorpha) - Zapata et al. 2014
+- SRR1505139; Turbonilla sp. (Heterobranchia) - Zapata et al. 2014
+- SRR1505140; Tylodina fungina (Heterobranchia) - Zapata et al. 2014
+- SRR1505141; Urosalpinx cinerea (Caenogastropoda) - Zapata et al. 2014
+- SRR1505120; Myochama anomioides (Heterodonta) - Zapata et al. 2014
+- SRR1505117; Mercenaria campechiensis (Heterodonta) - Zapata et al. 2014
+- SRX565221-SRX565224; Mytilus edulis (Bivalvia)
+- SRX593725; Sepia esculenta (Cephalopoda) - only the sucker transcriptome
+- SRX593724; Dosidicus gigas (Cephalopoda) - only the sucker transcriptome
+- SRX591339; Sepioteuthis lessoniana (Cephalopoda) - only the sucker transcriptome
+- SRR2057023; Macellomenia schanderi (Solenogastres)
+- SRR2057026; Neomenia carinata (Solenogastres)
+- SRR2057025; Nuculana pernula (Bivalvia)
 
 ### Gastrotrichia
 SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
@@ -552,6 +552,7 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 ### Chordata
 1. SRR1324928-31; Eudyptes filholi (Aves)
 2. SRR1324932-35; Eudyptes chrysocome moseleyi (Aves)
+1. SRR1325067-76; Parus caeruleus (Cyanistes caeruleus) (Passeriformes)
 3. SRR1324963-64; Hippocampus hippocampus (Actinopterygii)
 4. SRR1324965-66; Hippocampus kuda (Actinopterygii)
 5. ftp://ftp.ensembl.org/pub/release-91/fasta/astyanax_mexicanus/pep/
