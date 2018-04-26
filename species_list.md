@@ -5,6 +5,8 @@
 1. SRR3407163; Lampea pancerina - Simion et al. 2017
 2. SRR6074520; Pleurobrachia sp. B (LM 2017) - Whelan et al. 2017
 3. SRR6074513; Hormiphora palmata - Whelan et al. 2017
+4. SRR777663; Euplokamis dunlapae
+5. SRR1992642; Hormiphora californensis
 
 **Platyctenida**
 1. SRR3407215; Coeloplana cf meteoris - Simion et al. 2017
@@ -119,12 +121,12 @@
 
 ## Arthropoda
 **Malacostraca**
-1. SRR1324798-99; Armadillidium nasatum (Isopoda)
-2. SRR1324846-47; Carcinus aestuarii (Decapoda)
-3. SRR1324989-90; Liocarcinus depurator (Decapoda)
+1. DRR023219; Macrobrachium rosenbergii (Decapoda)
+2. DRR086603; Hirondellea gigas (Amphipoda)
+3. ERR1433113; Proasellus beticus (Isopoda)
 
 **Branchiopoda**
-1. SRR1324810-19; Artemia franciscana (Anostraca)
+1. SRR4113492; Branchinella herrodi (Anostraca)
 2. DRR024788; Daphnia pulex (Anomopoda); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/daphnia_pulex/pep/
 
 **Insecta**
@@ -414,6 +416,12 @@
 - SRR6074510; Eurhamphaea vexilligera - Lobata - Whelan et al. 2017
 - SRR6074509; Mnemiopsis leidyi - Whelan et al. 2017
 
+SRR5892572; Pukia falcata
+SRR5892573; Pleurobrachia sp.
+SRR777788; Dyrodora glandiformis
+SRR786492; Mertensiidae sp
+SRR789901; Pleurobrachia pileus
+
 ### Poriferans
 - SRR1916581; Sympagella nux
 
@@ -434,7 +442,7 @@
 - SRR1324968; Leptogorgia sarmentosa - Anthozoa, Octocorallia - Kayal et al. 2018
 - SRR2472984; Myxobolus pendula - Myxozoa - Kayal et al. 2018
 
-###Molluscs:
+### Molluscs:
 - SRR1505134; Pyropelta sp. (Vetigastropoda) - Zapata et al. 2014
 - SRR1505101; Amphiplica gordensis (Vetigastropoda) - Zapata et al. 2014
 - SRR1505102; Architectonica perspectiva (Heterobranchia) - Zapata et al. 2014
@@ -486,7 +494,7 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 2. SRR1324980; Ramphogordius lacteus/Lineus lacteus (Heteronemertea) - SRR1324979 if more reads are needed
 1. SRR1611560; Malacobdella grossa (Hoplonemertea)
 
-###Annelida
+### Annelida
 1. SRR2057036; Pectinaria gouldii (Polychaeta)
 2. SRR2052565; Alitta succinea (Polychaeta)
 3. SRR2057014; Boccardia proboscidea (Sedentaria)
@@ -528,7 +536,6 @@ SRX534832, SRX534834-SRX534835; Megadasys sp. (Macrodasyida)
 10. SRR1325003-04; Melitaea athalia (Insecta)
 11. SRR1325005-06; Melitaea parthenoides (Insecta)
 12. SRR1325007-16; Messor barbarus (Insecta)
-13. SRR1325038-45; Necora puber (Malacostraca)
 14. Branchiopoda: loads more Daphnia available.
 15. SRR1324840-41; Camponotus aethiops (Hymenoptera)
 16. Atta cephalotes (Hymenoptera); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/atta_cephalotes/pep/Atta_cephalotes.Attacep1.0.pep.all.fa.gz
