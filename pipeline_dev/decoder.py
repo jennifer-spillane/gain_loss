@@ -1,9 +1,16 @@
+#! /usr/bin/env python3
+
+import shutil
+import os
+import subprocess
+import argparse
+
 #function to store the names of the species, run all files in a given directory through TransDecoder,
 #and then organize the result files for analysis by busco
 def decoder():
     #removing directories that will be created later in the function
-    shutil.rmtree("decode_out")
-    shutil.rmtree("for_orthofinder")
+    shutil.rmtree("decode_out", ignore_errors = True)
+    shutil.rmtree("for_orthofinder", ignore_errors = True)
     #storing the original directory name, then making one to hold the output of TransDecoder
     orig_dir = os.getcwd()
     os.mkdir("decode_out")
@@ -13,7 +20,7 @@ def decoder():
     #looking inside the larger directory to all the phylum directories to find the assemblies
     species_db = {}
     for directory in os.scandir("{0}".format(args.transcripts)):
-        for fasta in os.scandir("assemblies"):
+        for fasta in os.scandir("{0}/assemblies".format(args.transcripts)):
             if fasta.name.endswith(".orthomerged.fasta"):
                 #using TransDecoder to extract the long open reading frames and predict the coding regions
                 subprocess.run("TransDecoder.LongOrfs -t {0}".format(fasta.path), shell = True)
@@ -26,3 +33,10 @@ def decoder():
     os.chdir(orig_dir)
 
 #ends with a directory called for_orthofinder that contains all the .pep files renamed to have their original names.
+
+#arguments for the function
+parser = argparse.ArgumentParser(description = "Arguments for TransDecoder")
+parser.add_argument("transcripts", help = "path to a directory containing the directories containing the transcriptomic datasets")
+args = parser.parse_args()
+
+decoder()
