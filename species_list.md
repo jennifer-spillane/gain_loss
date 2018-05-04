@@ -3,10 +3,8 @@
 ## Ctenophora
 **Cydippida**
 1. SRR3407163; Lampea pancerina - Simion et al. 2017
-2. SRR6074520; Pleurobrachia sp. B (LM 2017) - Whelan et al. 2017
-3. SRR6074513; Hormiphora palmata - Whelan et al. 2017
-4. SRR777663; Euplokamis dunlapae
-5. SRR1992642; Hormiphora californensis
+2. SRR777663; Euplokamis dunlapae
+3. SRR1992642; Hormiphora californensis
 
 **Platyctenida**
 1. SRR3407215; Coeloplana cf meteoris - Simion et al. 2017
@@ -36,6 +34,7 @@
 1. SRR1068281; Aphrocallistes vastus (Sceptrulophora)
 2. SRR1915835; Rossella fibulata (Lyssacinosida)
 3. SRR1916923; Hyalonema populiferum (Amphidiscosida)
+4. SRR1916581; Sympagella nux
 
 **Homoscleromorpha**
 1. SRR3417194; Plakina jani - Simion et al. 2017 (Homosclerophorida)
@@ -121,7 +120,7 @@
 
 ## Arthropoda
 **Malacostraca**
-1. DRR023219; Macrobrachium rosenbergii (Decapoda)
+1. DRR023219; Macrobrachium rosenbergii (Decapoda) *won't work - reads too short*
 2. DRR086603; Hirondellea gigas (Amphipoda)
 3. ERR1433113; Proasellus beticus (Isopoda)
 
@@ -208,8 +207,8 @@
 2. SRR2057016; Clymenella torquata (Sedentaria)
 
 **Clitellata**
-1. ERR693859; Eisenia fetida (Oligochaeta) (or ERR693860-ERR693867)
-2. SRR1324774-83; Allolobophora chlorotica (Oligochaeta)
+1. ERR694013; Eisenia fetida (Oligochaeta)
+2. ERR790002; Hormogaster riojana (Opisthopora)
 3. Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/helobdella_robusta/pep/Helobdella_robusta.Helro1.pep.all.fa.gz
 
 **Echiura**
