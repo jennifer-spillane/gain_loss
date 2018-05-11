@@ -19,7 +19,7 @@ def qual_cdhit_qual():
     print("Running cdhit")
     subprocess.run("cdhit -c {0} -T 24 -i {1} -o {2}".format(args.similarity, args.infile, args.outfile), shell = True)
 
-    os.chdir("{0}".format(args.final))
+    os.chdir("{0}".format(args.final_busco))
     #running busco once more on the filtered (now twice) files
     busco2 = ("run_BUSCO.py -m tran -l /mnt/lustre/hcgs/shared/databases/busco/eukaryota_odb9 -i {0} -o {1}_cdhit".format(args.outfile, args.prefix))
     subprocess.run(busco2, shell = True)
@@ -32,18 +32,13 @@ parser.add_argument("-n", "--new_busco", required = True, help = "path to direct
 parser.add_argument("-f", "--final_busco", required = True, help = "path to directory where busco scores should be stored")
 parser.add_argument("-b", "--orig_busco", required = True, help = "path to the directory where original busco score is")
 parser.add_argument("-p", "--prefix", required = True, help = "prefix to go into the name of the busco output")
-parser.add_argument("-o", "--outfile", requred = True, help = "path to the filtered assembly file")
+parser.add_argument("-o", "--outfile", required = True, help = "path to the filtered assembly file")
 args = parser.parse_args()
 
 qual_cdhit_qual()
 
+#submitted at 1:50 or so.
 
-../pipeline_dev/pipeline_scripts/qual_cdhit_qual.py \
--i /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_filtered/alcyonium_palmatum.filtered.fasta \
--n /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_busco/filter1_busco/ \
--b /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_busco/orig_busco \
--p alcyonium_palmatum \
--o /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_filtered/alcyonium_palmatum.cdhit.fasta
 
 
 
