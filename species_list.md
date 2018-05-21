@@ -286,9 +286,9 @@
 
 ## Rotifera
 **Eurotatoria**
-2. ERR454505; Rotaria rotatoria (Bdelloidea)
-3. SRR1976570; Lepadella patella (Monogononta)
-4. Adineta vaga; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/adineta_vaga/pep/
+1. ERR454505; Rotaria rotatoria (Bdelloidea)
+2. SRR1976570; Lepadella patella (Monogononta)
+3. Adineta vaga; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/adineta_vaga/pep/
 
 **Pararotatoria**
 
