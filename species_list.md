@@ -1,5 +1,10 @@
 # Species List
 
+## Outgroups
+1. Capsaspora owczarzaki; ftp://ftp.ensemblgenomes.org/pub/protists/release-39/fasta/protists_ichthyosporea1_collection/capsaspora_owczarzaki_atcc_30864/pep/Capsaspora_owczarzaki_atcc_30864.C_owczarzaki_V2.pep.all.fa.gz
+2. Monosiga brevicollis; ftp://ftp.ensemblgenomes.org/pub/protists/release-39/fasta/protists_choanoflagellida1_collection/monosiga_brevicollis_mx1/pep/Monosiga_brevicollis_mx1.V1.0.pep.all.fa.gz
+3. Salpingoeca rosetta; ftp://ftp.ensemblgenomes.org/pub/protists/release-39/fasta/protists_choanoflagellida1_collection/salpingoeca_rosetta/pep/Salpingoeca_rosetta.Proterospongia_sp_ATCC50818.pep.all.fa.gz
+
 ## Ctenophora
 **Cydippida**
 1. SRR3407163; Lampea pancerina - Simion et al. 2017
