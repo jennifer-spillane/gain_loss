@@ -221,9 +221,11 @@
 2. SRR2057016; Clymenella torquata (Sedentaria)
 
 **Clitellata**
-1. ERR694013; Eisenia fetida (Oligochaeta)
-2. ERR790002; Hormogaster riojana (Opisthopora)
+1. ~~ERR694013; Eisenia fetida (Oligochaeta)~~
+2. ~~ERR790002; Hormogaster riojana (Opisthopora)~~
 3. Helobdella robusta (Rhynchobdellida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/helobdella_robusta/pep/Helobdella_robusta.Helro1.pep.all.fa.gz
+4. SRR1519963; Glossoscolex paulistus
+5. SRR5353279; Dichogaster saliens
 
 **Echiura**
 
