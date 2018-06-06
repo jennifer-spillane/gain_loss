@@ -88,7 +88,7 @@
 4. Crassostrea gigas (Ostreoida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/crassostrea_gigas/pep/Crassostrea_gigas.oyster_v9.pep.all.fa.gz
 
 **Caudofoveata**
-1. SRR5110532; Scutopus ventrolineatus (Chaetodermatida)
+1. ~~SRR5110532; Scutopus ventrolineatus (Chaetodermatida)~~
 2. SRR5341487; Chaetoderma nitidulum (Chaetodermatida)
 
 **Cephalopoda**
