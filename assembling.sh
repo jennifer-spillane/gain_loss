@@ -24,7 +24,7 @@ seqtk sample -s 51 genus_species_2.fastq 35000000 > genus_species_sub_2.fastq
 
 module purge
 module load anaconda/colsa
-source activate orp
+source activate orp-20180404
 
 cd /mnt/lustre/macmaneslab/jlh1023/gainloss_data/porifera
 
@@ -32,3 +32,7 @@ oyster.mk main MEM=450 CPU=24 \
 READ1=genus_species_1.fastq \
 READ2=genus_species_2.fastq \
 RUNOUT=genus_species
+
+
+
+grep ">" batch1_all.fa | sed 's_>__g' | shuf | split -l 30000
