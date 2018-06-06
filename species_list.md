@@ -89,7 +89,9 @@
 
 **Caudofoveata**
 1. ~~SRR5110532; Scutopus ventrolineatus (Chaetodermatida)~~
-2. SRR5341487; Chaetoderma nitidulum (Chaetodermatida)
+2. ~~SRR5341487; Chaetoderma nitidulum (Chaetodermatida)~~
+3. SRR6926333; Scutopus ventrolineatus
+4. SRR6926337; Falcidens caudatus
 
 **Cephalopoda**
 1. SRR331946; Octopus vulgaris (Coleoidea)
@@ -125,9 +127,10 @@
 
 ## Arthropoda
 **Malacostraca**
-1. DRR023219; Macrobrachium rosenbergii (Decapoda) *won't work - reads too short*
+1. ~~DRR023219; Macrobrachium rosenbergii (Decapoda)~~
 2. DRR086603; Hirondellea gigas (Amphipoda)
 3. ERR1433113; Proasellus beticus (Isopoda)
+4. DRR001118; Pandalus latirostris (Decapoda)
 
 **Branchiopoda**
 1. SRR4113492; Branchinella herrodi (Anostraca)
@@ -148,7 +151,8 @@
 1. SRR5237777; Anoplodactylus insignis (Pantopoda)
 
 **Merostomata**
-1. SRR1145732; Limulus polyphemus (Xiphosurida)
+1. ~~SRR1145732; Limulus polyphemus (Xiphosurida)~~
+2. SRR2616680; Limulus polyphemus (Xiphosurida)
 
 **Chilopoda**
 1. Strigamia maritima (Geophilomorpha); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/strigamia_maritima/pep/Strigamia_maritima.Smar1.pep.all.fa.gz
@@ -161,12 +165,14 @@
 1. SRR6145369; Pauropus huxleyi (Tetramerocerata)
 
 **Symphyla**
-1. SRR3458649; Scutigerella sp. ()
+1. ~~SRR3458649; Scutigerella sp. ()~~
+2. SRR6217953; Hanseniella sp1
 
 **Remipedia**
 
 **Cephalocarida**
-1. SRR4113505; Hutchinsoniella macracantha (Brachypoda)
+1. ~~SRR4113505; Hutchinsoniella macracantha (Brachypoda)~~
+2. SRR4113506; Lightiella incisa
 
 **Maxillopoda**
 1. Lepeophtheirus salmonis (Siphonostomatoida); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/lepeophtheirus_salmonis/pep/Lepeophtheirus_salmonis.LSalAtl2s.pep.all.fa.gz
@@ -175,7 +181,8 @@
 1. SRR4113497; Eusarsiella sp. (Myodocopida)
 
 **Entognatha**
-1. SRR1182465; Occasjapyx japonicus
+1. ~~SRR1182465; Occasjapyx japonicus~~
+2. SRR935329; Folsomia candida
 
 ## Brachiopoda
 **Craniata**
@@ -199,7 +206,9 @@
 
 ## Cephalorhyncha
 **Priapulida**
-1. SRR1611567; Priapulus caudatus (Priapulidae) (or SRR1176793)
+1. ~~SRR1611567; Priapulus caudatus (Priapulidae)~~
+2. SRR1176793; Priapulus caudatus (Priapulidae)
+3. Backup: SRR2131688; Tubiluchus cf. corallicola
 
 **Kinorhyncha**
 
