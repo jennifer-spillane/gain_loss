@@ -5,9 +5,8 @@ import os
 import subprocess
 import argparse
 
-#function to store the names of the species, run all files in a given directory through TransDecoder,
-#and then organize the result files for analysis by busco
-def decoder():
+#function that 
+def after_decoder():
     #removing directories that will be created later in the function
     shutil.rmtree("decode_out", ignore_errors = True)
     shutil.rmtree("for_orthofinder", ignore_errors = True)
@@ -39,4 +38,4 @@ parser = argparse.ArgumentParser(description = "Arguments for TransDecoder")
 parser.add_argument("transcripts", help = "path to a directory containing the directories containing the transcriptomic datasets")
 args = parser.parse_args()
 
-decoder()
+after_decoder()
