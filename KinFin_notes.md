@@ -37,4 +37,40 @@ files: cluster_counts_by_taxon.txt, cluster_size_distribution.pdf
 and obviously more stuff inside the directories.
 
 It seems like I'll need to run interproscan before I run some of these analyses (maybe even orthofinder?), so this is the command I'm using to do that. (in a slurm called inter.slurm)
-> interproscan -d inter_out -i ./sponge_ref/*.fa -appl Pfam
+> interproscan -d inter_out -i ./sponge_ref/\*.fa -appl Pfam        #don't include the backslash, it was just messing with all the formatting.      
+
+
+
+
+# Kinfining on the real dataset - batch1
+
+I made a directory called batch1_kinfin to do these analyses
+
+Orthofinder finished, so now I need these three files to do the kinfin analysis:
+- /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_orthofinder/Results_May13/Orthogroups.txt
+- /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_orthofinder/Results_May13/WorkingDirectory/SpeciesIDs.txt
+- /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_orthofinder/Results_May13/WorkingDirectory/SequenceIDs.txt
+
+### Prepping the kinfin config file
+
+> echo '#IDX,TAXON' > config.txt
+> sed 's/: /,/g' /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/batch1_orthofinder/Results_May13/WorkingDirectory/SpeciesIDs.txt | \
+    cut -f 1 -d"." \
+    >> config.txt
+
+Top of the config file:
+#IDX,TAXON
+0,Adineta_vaga
+1,Amphimedon_queenslandica
+2,Anolis_carolinensis
+3,Bombus_impatiens
+4,Caenorhabditis_elegans
+5,Capitella_teleta
+6,Ciona_savignyi
+7,Crassostrea_gigas
+8,Danaus_plexippus
+9,Danio_rerio
+10,Daphnia_pulex
+
+
+### Kinfin analysis
