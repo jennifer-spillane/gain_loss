@@ -52,6 +52,9 @@
 2. Nematostella vectensis - Putnam et al. 2007 (Hexacorallia); ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/nematostella_vectensis/pep/Nematostella_vectensis.ASM20922v1.pep.all.fa.gz
 3. SRR1552944; Corallium rubrum - Kayal et al. 2018 (Octocorallia)
 4. Acropora digitifera (Hexacorallia); http://www.compagen.org/datasets/ADIG_G-PEP_111201.zip
+5. SRR3407160; Antipathes caribbeana (Hexacorallia)
+6. SRR3407216; Alcyonium palmatum (Octocorallia)
+7. Plumapathes pennacea (Hexacorallia)
 
 **Cubozoa**
 1. SRR1819888; Chironex fleckeri - Kayal et al. 2018
@@ -61,6 +64,7 @@
 1. Hydra magnipapillata - Chapman et al. 2010 (Aplanulata) *find these data*
 2. SRR923509; Hydractinia polyclina - Kayal et al. 2018 (Filifera)
 3. SRR1952742; Aegina citrea - Zatata et al. 2015 (Trachylinae)
+4. SRR3407335; Liriope tetraphylla
 
 **Myxozoa**
 1. SRR1300899; Kudoa iwatai - Kayal et al. 2018
@@ -69,13 +73,18 @@
 
 **Scyphozoa**
 1. SRR1952729; Atolla vanhoeffeni - Zapata et al. 2015 (Coronatae)
-2. SRR3180892; Chrysaora fuscescens - Kayal et al. 2018 (Discomedusae)
-3. SRR1168418; Stomolophus meleagris - Kayal et al. 2018 (Discomedusae)
+2. ~~SRR3180892; Chrysaora fuscescens - Kayal et al. 2018 (Discomedusae)~~
+3. ~~SRR1168418; Stomolophus meleagris - Kayal et al. 2018 (Discomedusae)~~
+4. SRR1425086; Aurelia aurita
+5. SRR1915828; Periphylla periphylla
+6. SRR3407257; Pelagia noctiluca (Discomedusae)
 
 **Staurozoa**
-1. ERR2248379; Calvadosia cruxmelitensis - Kayal et al. 2018
-2. ERR2248381; Craterolophus convolvulus - Kayal et al. 2018
-3. ERR2248382; Haliclystus auricula - Kayal et al. 2018
+1. ~~ERR2248379; Calvadosia cruxmelitensis - Kayal et al. 2018~~
+2. ~~ERR2248381; Craterolophus convolvulus - Kayal et al. 2018~~
+3. ~~ERR2248382; Haliclystus auricula - Kayal et al. 2018~~
+4. SRR3407219; Calvadosia campanulata
+5. ERR2248383; Lucernaria quadricornis
 
 ## Placozoa
 1. Trichoplax adhaerens; ftp://ftp.ensemblgenomes.org/pub/metazoa/release-38/fasta/trichoplax_adhaerens/pep/Trichoplax_adhaerens.ASM15027v1.pep.all.fa.gz
@@ -378,7 +387,8 @@
 2. ERR2061163-65; Eptatretus burgeri (Eptatretinae)
 
 **Petromyzonti**
-1. Petromyzon marinus; ftp://ftp.ensembl.org/pub/release-91/fasta/petromyzon_marinus/pep/ (Petromyzontiformes)
+1. ~~Petromyzon marinus; ftp://ftp.ensembl.org/pub/release-91/fasta/petromyzon_marinus/pep/ (Petromyzontiformes)~~
+2. SRR5312374; Petromyzon marinus
 
 **Chondrichthyes**
 1. SRR2039259; Potamotrygon (Myliobatiformes)
