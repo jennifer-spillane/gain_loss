@@ -23,6 +23,8 @@
 **Beroida**
 1. SRR6074516; Beroe ovata - Whelan et al. 2017
 2. SRR6074515; Beroe forskalii - Whelan et al. 2017
+3. SRR5892577; Beroe sp.
+4. SRR777787; Beroe abyssicola
 
 ## Porifera
 **Calcarea**
@@ -380,7 +382,8 @@
 **Appendicularia**
 
 **Leptocardii**
-1. SRR923751; Branchiostoma floridae (Branchiostomatidae)
+1. ~~SRR923751; Branchiostoma floridae (Branchiostomatidae)~~
+2. SRR1138335; Asymmetron lucayanum (Branchiostomatidae)
 
 **Myxini**
 1. DRR062842-43; Eptatretus atami (Eptatretinae)
@@ -402,8 +405,9 @@
 2. Gallus gallus; ftp://ftp.ensembl.org/pub/release-91/fasta/gallus_gallus/pep/ (Galliformes)
 
 **Reptilia**
-1. SRR1324918-27; Emys orbicularis (Testudines)
+1. ~~SRR1324918-27; Emys orbicularis (Testudines)~~
 2. Anolis carolinensis; ftp://ftp.ensembl.org/pub/release-91/fasta/anolis_carolinensis/pep/ (Squamata)
+3. SRR2980465; Mauremys reevesii (Testudinata)
 
 **Amphibia**
 1. DRX015082-91; Hynobius retardatus (Caudata)
