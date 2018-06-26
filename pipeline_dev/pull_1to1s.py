@@ -24,9 +24,10 @@ def pull():
                 #also making a set that contains all the protein names
                 print("Getting protein names from orthofinder file")
                 for line in ortho_file:
+                    #stripping of white space and splitting on tabs
                     line = line.rstrip()
                     line = line.split("\t")
-
+                    #if the OG name is in the set, put all the proteins into a new set (and dictionary)
                     if line[0] in ogs:
                         ols.setdefault(line[0], line[1:])
                         for protein in line[1:]:
@@ -35,6 +36,8 @@ def pull():
                                 prot_set.add(indv)
                 print("Pulled protein names from orthofinder file")
         print("Parsing the fasta file")
+        #running through the catted fasta of all the proteins and pulling those seqs that
+        #match the ones in the set.
         prot_seqs = []
         for record in Bio.SeqIO.parse("{}".format(args.prots), "fasta"):
             if record.id in prot_set:
