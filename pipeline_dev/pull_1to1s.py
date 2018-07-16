@@ -34,7 +34,7 @@ def pull():
                             protein = protein.split(", ")
                             for indv in protein:
                                 prot_set.add(indv)
-                print("Pulled protein names from orthofinder file")
+                print("Pulled {0} protein names from orthofinder file".format(len(prot_set)))
         print("Parsing the fasta file")
         #running through the catted fasta of all the proteins and pulling those seqs that
         #match the ones in the set.
