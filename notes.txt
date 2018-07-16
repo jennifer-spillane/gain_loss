@@ -1,2 +1,4 @@
 here's some stuff about sponges or whatever.
 
+how to connect my terminal to atom:
+sshfs jlh1023@premise.sr.unh.edu: premise
