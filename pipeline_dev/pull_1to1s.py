@@ -24,26 +24,33 @@ def pull():
                 #also making a set that contains all the protein names
                 print("Getting protein names from orthofinder file")
                 for line in ortho_file:
-                    #stripping of white space and splitting on tabs
-                    line = line.rstrip()
-                    line = line.split("\t")
-                    #if the OG name is in the set, put all the proteins into a new set (and dictionary)
-                    if line[0] in ogs:
-                        ols.setdefault(line[0], line[1:])
-                        for protein in line[1:]:
-                            protein = protein.split(", ")
-                            for indv in protein:
-                                prot_set.add(indv)
+                    if line.startswith("OG"):
+                        #stripping of white space and splitting on tabs
+                        line = line.rstrip()
+                        line = line.split("\t")
+                        #if the OG name is in the set, put all the proteins into a new set (and dictionary)
+                        if line[0] in ogs:
+                            ols.setdefault(line[0], line[1:])
+                            for protein in line[1:]:
+                                protein = protein.split(", ")
+                                for indv in protein:
+                                    if indv != "":
+                                        prot_set.add(indv)
                 print("Pulled {0} protein names from orthofinder file".format(len(prot_set)))
         print("Parsing the fasta file")
         #running through the catted fasta of all the proteins and pulling those seqs that
         #match the ones in the set.
         prot_seqs = []
+        prot_names = set()
         for record in Bio.SeqIO.parse("{}".format(args.prots), "fasta"):
             if record.id in prot_set:
-                cur_prot = Bio.SeqRecord.SeqRecord(id = record.id, seq = record.seq)
+                cur_prot = Bio.SeqRecord.SeqRecord(id = record.id, seq = record.seq, desctiption = "")
+                cur_prot_name = record.id
                 prot_seqs.append(cur_prot)
-        print("Writing new fasta file")
+                prot_names.add(cur_prot_name)
+        test_set = prot_set.difference(prot_names)
+        print(len(test_set))
+        print(test_set)
         Bio.SeqIO.write(prot_seqs, "{}".format(args.out), "fasta")
 
     except IOError:
