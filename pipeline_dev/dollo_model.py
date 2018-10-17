@@ -2,6 +2,7 @@
 
 import subprocess
 import argparse
+import pandas
 import os
 import shutil
 from multiprocessing import Pool
@@ -52,7 +53,7 @@ def model(og):
 parser = argparse.ArgumentParser(description = "arguments for applying the dollo model")
 parser.add_argument("-t", "--tree", required = True, help = "Path to a phylogenetic tree file")
 parser.add_argument("-m", "--matrix", required = True, help = "Path to a presense/absense matrix")
-parser.add_argumnet("-o", "--output", required = True, help = "Path to the output file")
+parser.add_argument("-o", "--output", required = True, help = "Path to the output file")
 args = parser.parse_args()
 
 #copying the files I need into the working directory so that R can access them
@@ -81,6 +82,7 @@ group_num = ""
 #"content" is a tuple with the OG as the first thing and a list of lines from
 #the r output file as the second thing.
 for content in results:
+    print(content)
     #checking to see if the og is one that was all present
     if content is not None:
         #"group_num" is the OG element of the tuple, while "presabs" is the list element
