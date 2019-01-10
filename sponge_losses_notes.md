@@ -1,3 +1,16 @@
+# Notes for when I pick this back up in a few weeks:
+
+### Priorities to work on for the full dataset
+1. The normalization script: this should take the busco score into account (the final busco score, after all filtering steps) and deplete the gene count (found in Orthogroups.GeneCount.csv) to reflect the percentage of buscos there.
+2. Think about what other quality metrics we could employ: busco might tell us that we have a pretty complete animal genome or eukaryotic genome, but might not tell us we have a pretty good cnidarian genome, etc. so think about what else we could look at to test completeness.
+3. Troubleshoot the /mnt/lustre/macmaneslab/jlh1023/pipeline_dev/pipeline_scripts/dollo_model.py script: it is still sending out weirdly duplicated results and we'll need to address it for the final dataset. Current troubleshooting can be found here: /mnt/lustre/macmaneslab/jlh1023/metazoa_matrix/modeling
+
+
+
+
+
+
+
 # notes on the eight orthogroups of sponges that are 1.3 standard deviations from the mean
 
 ## OG0000346 - absent
